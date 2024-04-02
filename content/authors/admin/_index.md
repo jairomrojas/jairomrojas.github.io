@@ -102,6 +102,11 @@ social:
 #    display:
 #      header: true
 
+
+  - icon: https://arxiv.org/search/?query=Rojas%2C+Jairo+M&searchtype=author&abstracts=show&order=-announced_date_first&size=50
+    icon_pack: arxiv
+    link: https://www.researchgate.net/profile/Jairo-Rojas-7
+    
   - icon: researchgate
     icon_pack: academicons
     link: https://www.researchgate.net/profile/Jairo-Rojas-7
