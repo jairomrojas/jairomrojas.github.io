@@ -183,7 +183,7 @@ sections:
         exclude_featured: true
     design:
       columns: '2'
-      view: citation
+      view: 2
 
       
   - block: collection
@@ -282,7 +282,7 @@ sections:
       contact_links:
         - icon: x-twitter
           icon_pack: fab
-          name: DM Me
+          name: Direct Message me on X (Twitter)
           link: 'https://twitter.com/jairomrojash'
         # - icon: skype
         #   icon_pack: fab
