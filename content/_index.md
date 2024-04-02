@@ -41,7 +41,7 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: Biography
+      title: About me - CAUTION! WEB UNDER DEVELOPMENT
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
 
@@ -171,6 +171,7 @@ sections:
 
 
   - block: collection
+    id: publications
     content:
       title: Publications
 #      text: |-
@@ -189,7 +190,7 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Talks
+      title: Selection of Talks
       filters:
         folders:
           - event
@@ -205,6 +206,7 @@ sections:
 #      columns: '2'
 
   - block: experience
+    id: experience
     content:
       title: Experience
       # Date format for experience
@@ -241,9 +243,9 @@ sections:
       columns: '2'
 
   - block: collection
-    id: Seminars
+    id: miscellaneous
     content:
-      title: Compillation of Free and Open Living Matter Seminars
+      title: Miscellaneous <br><br> Biological Matter Seminars around the World
       filters:
         folders:
           - seminars
@@ -261,8 +263,8 @@ sections:
       # text: |-
       #   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: jairomrojash [at] gmail [dot] com
-      # phone: 888 888 88 88
+      email: jairomrojash [at] gmail [dot] com  
+#      phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
       # address:
       #   street: 450 Serra Mall
@@ -276,22 +278,22 @@ sections:
       #   - 'Monday 10:00 to 13:00'
       #   - 'Wednesday 09:00 to 10:00'
       # Choose a map provider in `params.yaml` to show a map from these coordinates
-      coordinates:
-        latitude: '40.11104320343726'
-        longitude: '-88.2233439686129'  
+#      coordinates:
+#        latitude: '40.11104320343726'
+#        longitude: '-88.2233439686129'  
       contact_links:
         - icon: x-twitter
           icon_pack: fab
           name: Direct Message me on X (Twitter)
           link: 'https://twitter.com/jairomrojash'
-        # - icon: skype
-        #   icon_pack: fab
-        #   name: Skype Me
-        #   link: 'skype:echo123?call'
-        # - icon: video
-        #   icon_pack: fas
-        #   name: Zoom Me
-        #   link: 'https://zoom.com'
+#        - icon: skype
+#          icon_pack: fab
+#          name: Skype Me
+#          link: 'skype:echo123?call'
+#        - icon: video
+#          icon_pack: fas
+#          name: Zoom Me
+#          link: 'https://zoom.com'
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
@@ -302,10 +304,11 @@ sections:
     #     netlify:
     #       # Enable CAPTCHA challenge to reduce spam?
     #       captcha: false
-    # design:
-    #   columns: '2'
+    design:
+      columns: '2'
 
   - block: markdown
+    id: gallery
     content:
       title: Gallery
       subtitle: ''
