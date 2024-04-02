@@ -96,7 +96,7 @@ social:
     link: '/#contact'
   - icon: x-twitter
     icon_pack: fab
-    link: http://twitter.com/jairomrojas14
+    link: http://twitter.com/jairomrojash
     label: Follow me on Twitter
     display:
       header: true
