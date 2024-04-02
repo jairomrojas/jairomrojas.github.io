@@ -111,7 +111,7 @@ social:
   #   link: https://www.researchgate.net/profile/Jairo-Rojas-7
   - icon: github
     icon_pack: fab
-    link: https://github.com/jmrojash
+    link: https://github.com/jairomrojas
   # - icon: linkedin
   #   icon_pack: fab
   #   link: https://www.linkedin.com/
