@@ -1,8 +1,10 @@
+
 ---
 # Leave the homepage title empty to use the site title
 title: ''
 date: 2022-10-24
 type: landing
+
 
 sections:
   - block: hero
@@ -222,6 +224,24 @@ sections:
       title: Popular Topics
     design:
       columns: '2'
+
+
+  - block: collection
+    id: Compillation of Open Living Matter Seminars
+    content:
+      title: Compillation of Open Living Matter Seminars
+      filters:
+        folders:
+          - seminars
+
+    design:
+      columns: '2'
+      view: Compact
+
+    show_date: false
+      
+
+
   - block: contact
     id: contact
     content:
