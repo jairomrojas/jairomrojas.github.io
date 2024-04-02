@@ -108,13 +108,13 @@ social:
     icon_pack: fab
     link: https://arxiv.org/search/?query=Rojas%2C+Jairo+M&searchtype=author&abstracts=show&order=-announced_date_first&size=50
     
-  - icon: researchgate
-    icon_pack: academicons
-    link: https://www.researchgate.net/profile/Jairo-Rojas-7
+#  - icon: researchgate
+#    icon_pack: academicons
+#    link: https://www.researchgate.net/profile/Jairo-Rojas-7
 
-  - icon: google-scholar
-    icon_pack: academicons
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+#  - icon: google-scholar
+#    icon_pack: academicons
+#    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
     
   - icon: github
     icon_pack: fab
