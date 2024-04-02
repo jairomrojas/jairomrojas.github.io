@@ -94,24 +94,24 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  # - icon: twitter
-  #   icon_pack: fab
-  #   link: https://twitter.com/GeorgeCushen
-  #   label: Follow me on Twitter
-  #   display:
-  #     header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
+  - icon: x-twitter
     icon_pack: fab
+    link: http://twitter.com/jairomrojas14
+    label: Follow me on Twitter
+    display:
+      header: true
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=23XeNtkAAAAJ&hl=en
+  - icon: arxiv
+    icon_pack: ai
     link: https://arxiv.org/search/?query=jairo+m.+rojas&searchtype=all&source=header
-  - icon: github
-    icon_pack: fab
+  - icon: researchgate
+    icon_pack: ai
     link: https://www.researchgate.net/profile/Jairo-Rojas-7
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/jmrojash
   # - icon: linkedin
   #   icon_pack: fab
   #   link: https://www.linkedin.com/
@@ -126,5 +126,5 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a theorist with interests in soft condensed matter and biological physics. My research focuses on the effect of actin in mechanobiology, and self-organization in active matter systems.
 {style="text-align: justify;"}
