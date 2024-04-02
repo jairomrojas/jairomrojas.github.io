@@ -237,7 +237,7 @@ sections:
       # text: |-
       #   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: jairomrojas14 [at] gmail [dot] com
+      email: jairomrojash [at] gmail [dot] com
       # phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
       # address:
@@ -259,7 +259,7 @@ sections:
         - icon: x-twitter
           icon_pack: fab
           name: DM Me
-          link: 'https://twitter.com/jairomrojas14'
+          link: 'https://twitter.com/jairomrojash'
         # - icon: skype
         #   icon_pack: fab
         #   name: Skype Me
