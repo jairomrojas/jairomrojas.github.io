@@ -106,9 +106,9 @@ social:
   - icon: arxiv
     icon_pack: ai
     link: https://arxiv.org/search/?query=jairo+m.+rojas&searchtype=all&source=header
-  - icon: researchgate
-    icon_pack: ai
-    link: https://www.researchgate.net/profile/Jairo-Rojas-7
+  # - icon: researchgate
+  #   icon_pack: ai
+  #   link: https://www.researchgate.net/profile/Jairo-Rojas-7
   - icon: github
     icon_pack: fab
     link: https://github.com/jmrojash
