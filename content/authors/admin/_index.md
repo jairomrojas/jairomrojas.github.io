@@ -106,8 +106,8 @@ social:
     icon_pack: academicons
     link: https://www.researchgate.net/profile/Jairo-Rojas-7
 
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
+  - icon: google-scholar
+    icon_pack: academicons
     link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
     
   - icon: github
