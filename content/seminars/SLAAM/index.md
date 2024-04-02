@@ -4,7 +4,9 @@ title: Soft, Living, Active and Adaptive Matter (SLAAM)
 external_link: https://physics.ucmerced.edu/slaam
 cms_exclude: true
 
-summary: Talks of around 40 minutes organized by the University of California Merced Physics department in collaboration with the Center for Cellular and Biomolecular Machines (CCBM).
+# summary: Talks of around 40 minutes organized by the University of California Merced Physics department in collaboration with the Center for Cellular and Biomolecular Machines (CCBM).
+
+summary: Supported by the University of California Merced Physics department in collaboration with the Center for Cellular and Biomolecular Machines (CCBM).
 
 show_date: false
 
