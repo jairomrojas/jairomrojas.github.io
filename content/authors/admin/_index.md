@@ -103,8 +103,8 @@ social:
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
     link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: brands/org-x
-#    icon_pack: fab
+  - icon: org-x
+    icon_pack: brands
     link: https://github.com/gcushen
 #  - icon: linkedin
 #    icon_pack: fab
