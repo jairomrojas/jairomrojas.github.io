@@ -104,7 +104,7 @@ social:
 
 
 
-  - icon: github
+  - icon: linkedin
     icon_pack: fab
     link: https://arxiv.org/search/?query=Rojas%2C+Jairo+M&searchtype=author&abstracts=show&order=-announced_date_first&size=50
     
