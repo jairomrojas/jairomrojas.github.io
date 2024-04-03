@@ -1,5 +1,5 @@
 ---
-title: The Living Histories series
+title: The Living Histories Series
 
 external_link: https://iyerbiswas.com/outreach/livinghistories/
 cms_exclude: true

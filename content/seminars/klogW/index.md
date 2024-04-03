@@ -1,5 +1,5 @@
 ---
-title: APS-GSNP klogW Zoom Seminar series
+title: APS-GSNP klogW Zoom Seminar Series
 
 external_link: https://gsnpaps.wixsite.com/home
 cms_exclude: true

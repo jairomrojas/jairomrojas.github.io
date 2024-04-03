@@ -244,8 +244,10 @@ sections:
 
   - block: collection
     id: miscellaneous
+
     content:
       title: Miscellaneous <br><br> Biological Matter Seminars around the World
+      count: 0
       filters:
         folders:
           - seminars

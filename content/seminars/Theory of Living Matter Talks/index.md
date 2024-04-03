@@ -1,5 +1,5 @@
 ---
-title: Theory of Living Matter Seminar series
+title: Theory of Living Matter Seminar Series
 external_link: https://tlmcambridge.blog
 cms_exclude: true
 
