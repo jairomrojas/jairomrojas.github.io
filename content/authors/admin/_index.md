@@ -47,7 +47,7 @@ education:
       year: 2019
     - course: BSc in Physics
       institution: Pontificia Universidad Católica del Perú
-      year: 2008
+      year: 2017
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
