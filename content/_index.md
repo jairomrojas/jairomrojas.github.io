@@ -41,7 +41,7 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: About me - CAUTION! WEB UNDER DEVELOPMENT
+      title: About me - CAUTION Web under construction  
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
 
@@ -135,7 +135,7 @@ sections:
       title: Projects
       filters:
         folders:
-          - project
+          - my_projects
       # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
       default_button_index: 0
       # Filter toolbar (optional).
@@ -180,7 +180,7 @@ sections:
 #        {{% /callout %}}
       filters:
         folders:
-          - publication
+          - papers
         exclude_featured: true
     design:
       columns: '2'
@@ -193,7 +193,7 @@ sections:
       title: Selection of Talks
       filters:
         folders:
-          - event
+          - talks
     design:
       columns: '2'
       view: compact
@@ -205,42 +205,42 @@ sections:
 #    design:
 #      columns: '2'
 
-  - block: experience
-    id: experience
-    content:
-      title: Experience
-      # Date format for experience
-      #   Refer to https://docs.hugoblox.com/customization/#date-format
-      date_format: Jan 2006
-      # Experiences.
-      #   Add/remove as many `experience` items below as you like.
-      #   Required fields are `title`, `company`, and `date_start`.
-      #   Leave `date_end` empty if it's your current employer.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
-          description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
-    design:
-      columns: '2'
+#  - block: experience
+#    id: experience
+#    content:
+#      title: Experience
+#      # Date format for experience
+#      #   Refer to https://docs.hugoblox.com/customization/#date-format
+#      date_format: Jan 2006
+#      # Experiences.
+#      #   Add/remove as many `experience` items below as you like.
+#      #   Required fields are `title`, `company`, and `date_start`.
+#      #   Leave `date_end` empty if it's your current employer.
+#      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+#      items:
+#        - title: CEO
+#          company: GenCoin
+#          company_url: ''
+#          company_logo: org-gc
+#          location: California
+#          date_start: '2021-01-01'
+#          date_end: ''
+#          description: |2-
+#              Responsibilities include:
+#
+#              * Analysing
+#              * Modelling
+#              * Deploying
+#        - title: Professor of Semiconductor Physics
+#          company: University X
+#          company_url: ''
+#          company_logo: org-x
+#          location: California
+#          date_start: '2016-01-01'
+#          date_end: '2020-12-31'
+#          description: Taught electronic engineering and researched semiconductor physics.
+#    design:
+#      columns: '2'
 
   - block: collection
     id: miscellaneous

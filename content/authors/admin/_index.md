@@ -29,21 +29,24 @@ bio: My research interests include distributed robotics, mobile computing and pr
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Biological Physics
+  - Soft Matter
+  - Active Matter
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: ADS University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: AFD Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: FADS Institute of Technology
+    - course: PhD in Physics - Ongoing
+      institution: University of Illinois Urbana-Champaign
+      year: ""
+    - course: MSc in Physics
+      institution: Instituto de Física Teórica - UNESP
+      year: 2020
+    - course: Perimeter Scholars International - MSc in Physics
+      institution: Perimeter Institute - University of Waterloo
+      year: 2019
+    - course: BSc in Physics
+      institution: Pontificia Universidad Católica del Perú
       year: 2008
 
 # Skills
