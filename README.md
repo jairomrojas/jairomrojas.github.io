@@ -9,7 +9,7 @@ A push to `main` builds it with Jekyll and publishes to GitHub Pages.
 
 | What | File |
 | --- | --- |
-| Biography and portrait | `_pages/about.md`, `assets/img/prof_pic.jpg` |
+| Biography and portrait | `_pages/about.md`, `assets/img/prof_pic.jpg` (source file: `assets/img/portrait/`) |
 | Research interests | `_pages/research.md` |
 | Publications | `_bibliography/papers.bib` |
 | Name, email, links | `_config.yml`, `_data/socials.yml` |
