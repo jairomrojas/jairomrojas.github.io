@@ -12,7 +12,6 @@ A push to `main` builds it with Jekyll and publishes to GitHub Pages.
 | Biography and portrait | `_pages/about.md`, `assets/img/prof_pic.jpg` |
 | Research pages | `_projects/*.md` |
 | Publications | `_bibliography/papers.bib` |
-| Talks | `_pages/talks.md` |
 | Teaching | `_pages/teaching.md` |
 | Name, email, links | `_config.yml`, `_data/socials.yml` |
 

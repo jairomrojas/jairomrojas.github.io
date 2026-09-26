@@ -7,7 +7,7 @@ The theme is al-folio v1 (Jekyll). Layouts live in the `al_folio_core` gem. Do n
 - `_pages/about.md` — homepage biography
 - `_projects/` — research pages, category `research`
 - `_bibliography/papers.bib` — the publication list
-- `_pages/talks.md`, `_pages/teaching.md`
+- `_pages/teaching.md`
 - `_config.yml`, `_data/socials.yml` — name, URL, email, icons
 - `.github/workflows/deploy.yml` — GitHub Pages
 
