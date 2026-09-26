@@ -1,16 +1,8 @@
 ---
 title: Publications
-cms_exclude: true
-
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-#   4 = Citation
-view: 4
-
-# Optional header image (relative to `static/media/` folder).
-banner:
-  caption: ''
-  image: ''
+view: 2
 ---
+
+Journal articles, one preprint, one conference paper, a thesis, a student report, and three manuscripts in preparation.
+The preparation items are labeled as such.
+They are not preprints.

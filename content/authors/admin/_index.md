@@ -1,130 +1,74 @@
 ---
-# Display name
-title: Jairo M Rojas
-
-# Name pronunciation (optional)
+title: Jairo M. Rojas
+first_name: Jairo Martin
+last_name: Rojas Huamaní
 name_pronunciation: ''
-
-# Full name (for SEO)
-first_name: Jairo M
-last_name: Rojas
-
-# Status emoji
 status:
   icon: 🐯
-
-# Is this the primary user of the site?
 superuser: true
-
-# Role/position/tagline
-role: PhD Student
-
-# Organizations/Affiliations to show in About widget
+role: PhD student in Physics
 organizations:
   - name: University of Illinois Urbana-Champaign
-    url: https://illinois.edu
-
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
-
-# Interests to show in About widget
+    url: https://physics.illinois.edu/
+bio: I look for the physical rules that organize cells, colonies, and populations.
 interests:
-  - Biological Physics
-  - Soft Matter
-  - Active Matter
-
-# Education to show in About widget
+  - Biological physics
+  - Soft matter
+  - Continuum mechanics
+  - Active matter
+  - Population dynamics
 education:
   courses:
-    - course: PhD in Physics - Ongoing
-      institution: University of Illinois Urbana-Champaign
-      year: ""
-    - course: MSc in Physics
-      institution: Instituto de Física Teórica - UNESP
-      year: 2020
-    - course: Perimeter Scholars International - MSc in Physics
-      institution: Perimeter Institute - University of Waterloo
+    - course: PhD in Physics
+      institution: University of Illinois Urbana-Champaign, with Sascha Hilgenfeldt
+      year: expected 2027
+    - course: MSc in Physics and PSI
+      institution: Perimeter Institute and the University of Waterloo, with Freddy Cachazo
       year: 2019
+    - course: MSc in Physics
+      institution: Instituto de Física Teórica, UNESP, with Ricardo Martínez-García
+      year: 2020
     - course: BSc in Physics
-      institution: Pontificia Universidad Católica del Perú
+      institution: Pontificia Universidad Católica del Perú, with José Bazo
       year: 2017
-
-# Skills
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-skills:
-  - name: Technical
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: python
-        icon_pack: fab
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-line
-        icon_pack: fas
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: database
-        icon_pack: fas
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-hiking
-        icon_pack: fas
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-        icon_pack: fas
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera-retro
-        icon_pack: fas
-
-# Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
+    - course: Exchange semester
+      institution: LMU Munich
+      year: 2017
 social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  - icon: x-twitter
-    icon_pack: fab
-    link: http://twitter.com/jairomrojash
+  - icon: orcid
+    icon_pack: ai
+    link: https://orcid.org/0000-0001-5017-9983
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=23XeNtkAAAAJ&hl=en
-  - icon: arxiv
-    icon_pack: ai
-    link: https://arxiv.org/search/?query=jairo+m.+rojas&searchtype=all&source=header
-  # - icon: researchgate
-  #   icon_pack: ai
-  #   link: https://www.researchgate.net/profile/Jairo-Rojas-7
+    link: https://scholar.google.com/citations?user=23XeNtkAAAAJ
   - icon: github
     icon_pack: fab
     link: https://github.com/jairomrojas
-  # - icon: linkedin
-  #   icon_pack: fab
-  #   link: https://www.linkedin.com/
-  # Link to a PDF of your resume/CV.
-  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-  # and uncomment the lines below.
-  # - icon: cv
-  #   icon_pack: ai
-  #   link: uploads/resume.pdf
-
-# Highlight the author in author lists? (true/false)
+  - icon: x-twitter
+    icon_pack: fab
+    link: https://twitter.com/jairomrojash
+  - icon: cv
+    icon_pack: ai
+    link: /uploads/resume.pdf
 highlight_name: true
 ---
 
-I am a theorist with interests in soft condensed matter and biological physics. My research focuses on the effect of actin in mechanobiology, and self-organization in active matter systems.
-{style="text-align: justify;"}
+I am a PhD student in Physics at the University of Illinois Urbana-Champaign, working with Sascha Hilgenfeldt.
+I study living matter as a physics problem: cells, colonies, and populations that get their shape and their motion from forces, fluctuations, and information.
+
+The questions I like are the ones you can state before the formalism.
+Why does an epithelial cell look different at its top and at its base?
+Why do bacteria under a thin film gather even when they are not crowded?
+What can a photograph of a whole colony tell you about how one cell forages?
+How long can a population last when birth, death, and diffusion are all noisy?
+
+I work with continuum mechanics, active-matter theory, and stochastic models, and I compare them with experiment when a measurement exists.
+Some of this is published, some is written and not yet in print, and some is still a calculation with an explicit list of what is open.
+The project pages say which is which.
+
+Before Illinois I studied at the Perimeter Institute and the University of Waterloo, at the Instituto de Física Teórica in São Paulo, and at the Pontificia Universidad Católica del Perú, with an exchange semester at LMU Munich.
+I teach, and I write in Spanish, English, Portuguese, and German.
+The CV linked in the menu is the full record.

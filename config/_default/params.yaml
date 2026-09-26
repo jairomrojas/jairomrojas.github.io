@@ -18,8 +18,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Hugo Blox Builder.'
-    twitter: 'GetResearchDev'
+    description: 'PhD student in Physics at Illinois. Continuum mechanics, active matter, and stochastic models of cells, colonies, and populations.'
+    twitter: 'jairomrojash'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -35,7 +35,7 @@ header:
   navbar:
     enable: true
     align: l
-    show_logo: true
+    show_logo: false
     show_language: false
     show_day_night: true
     show_search: true
@@ -74,7 +74,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/jairomrojas/jairomrojas.github.io'
     content_dir: content
     branch: main
   avatar:
@@ -116,5 +116,4 @@ extensions:
 # Security
 
 security:
-  # Allow frame for embedding speaker notes in slides
-  allow_frame: true
+  allow_frame: false

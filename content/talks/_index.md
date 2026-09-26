@@ -1,15 +1,7 @@
 ---
-title: Recent & Upcoming Talks
-cms_exclude: true
-
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
+title: Talks
 view: 2
-
-# Optional header image (relative to `static/media/` folder).
-header:
-  caption: ''
-  image: ''
 ---
+
+Selected talks and one poster.
+Schools I only attended are on the CV, not here.
