@@ -4,16 +4,14 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Jairo
-middle_name: M.
+middle_name: M
 last_name: Rojas
 contact_note: >
   Email is the reliable way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   PhD student in Physics at the University of Illinois Urbana-Champaign.
   I work on the mechanics of cells, the organization of bacterial colonies, and the stochastic life of populations.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+footer_text:
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ∑ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -96,11 +94,11 @@ al_folio:
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
-search_enabled: true
-socials_in_search: true
-posts_in_search: true
-bib_search: true
+footer_fixed: false
+search_enabled: false
+socials_in_search: false
+posts_in_search: false
+bib_search: false
 
 # Dimensions
 max_width: 930px
