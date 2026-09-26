@@ -8,6 +8,31 @@
     font-style: normal;
     font-weight: 400;
   }
+  html[data-theme="dark"] {
+    --global-theme-color: #d7c4a3;
+    --global-hover-color: #efe4d0;
+    --global-hover-text-color: #1c1c1c;
+  }
+  h1.post-title {
+    font-weight: 400;
+    letter-spacing: 0.01em;
+  }
+  .navbar .nav-link {
+    font-weight: 400;
+    letter-spacing: 0.04em;
+  }
+  .post .desc {
+    letter-spacing: 0.01em;
+  }
+  article p,
+  .post p {
+    line-height: 1.65;
+  }
+  .publications h2 {
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    font-size: 0.95rem;
+  }
 </style>
 <header>
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
