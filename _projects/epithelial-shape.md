@@ -1,16 +1,17 @@
 ---
 layout: page
 title: Shape of living tissues
-description: Why a cell is more than its outline, and what that means for the energy of a tissue.
+description: The energy of a tissue depends on the structure of the cell, not only on the length of its edge.
 importance: 1
-category: research
+category: mechanics
 ---
 
 Epithelial sheets are the thin walls of organs.
-The usual description draws each cell as a polygon and charges a simple penalty for the length of its edge.
-That is a useful starting point, and it leaves out the fact that a cell has an interior and a cortex, and that its outline changes from the top of the cell to the base.
+The usual model draws each cell as a polygon and charges a penalty for the length of that outline.
+That penalty is put in by hand.
+It also has nothing to say about why the outline changes between the top of a cell and its base.
 
-The experiments already show that this change along the height is systematic.
-A continuum description can follow that trend.
-What I am working out is an energy that respects the cell’s structure, so that a later tissue model does not have to invent the penalty by hand.
-The published preprint on the publication list is the part of this work that is already public.
+Experiments show that this change along the height is systematic.
+A continuum description can follow the trend.
+I am looking for an energy that comes from the cell’s own structure, so a tissue model does not have to invent the penalty.
+The public part of this work is the preprint on the publication list.

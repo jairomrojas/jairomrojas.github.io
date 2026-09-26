@@ -1,16 +1,16 @@
 ---
 layout: page
-title: When a population disappears
-description: A colony can look stable and still be one rare fluctuation away from being lost.
-importance: 4
-category: research
+title: Rare loss of a population
+description: A healthy density is not the same thing as being safe from a single large fluctuation.
+importance: 3
+category: collective
 ---
 
-Birth, death, and motion all fluctuate.
-A population that sits at a comfortable density can still be ended by one large excursion, not by a slow decline of the average.
+This question is only about persistence.
+It is not about assembly, and it is not about searching.
 
-I study the most likely way that happens.
-The exit need not thin the population everywhere at once.
-It can open in one place and then spread, and the spatial structure of the colony changes how hard that exit is.
-The calculation is furthest along for a simple setting.
-Direct stochastic checks, and the same question in higher dimensions, are still open.
+Birth, death, and motion all fluctuate.
+A population sitting at a comfortable density can still be ended by one large excursion, rather than by a slow decline of the average.
+The loss can begin in one region instead of everywhere at once, and spatial structure changes how hard that is.
+The simple case is the one in hand.
+A direct stochastic check, and the same question in higher dimensions, are still open.

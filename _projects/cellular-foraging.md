@@ -1,14 +1,15 @@
 ---
 layout: page
-title: How cells search
-description: A picture of the colony can say how the cells are searching, without following each one.
-importance: 3
-category: research
+title: Reading a search rule
+description: Different ways of searching leave different traces in the group as a whole.
+importance: 2
+category: collective
 ---
 
-A single swimming cell is a noisy measurement, and tracking enough of them is slow.
-The colony, seen as a whole, has already averaged over many cells.
+This question is only about inference.
+It assumes a group is already there. It does not ask why the group formed.
 
-Different rules for finding food do not leave the same trace in that average.
-The position of the group, how spread out it is, and how its shape changes with time carry different parts of the answer.
-The aim is to read the rule from those colony-scale signals, and to know what a single release of cells is actually able to tell you.
+A single track is noisy, and collecting enough of them is slow.
+The group has already averaged many tracks.
+Where it sits, how widely it spreads, and how its shape changes do not respond in the same way to every search rule.
+The aim is to tell those rules apart from that coarser record.

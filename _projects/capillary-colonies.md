@@ -1,15 +1,15 @@
 ---
 layout: page
-title: How a colony gathers
-description: Crowding is not the whole reason a group of cells comes together.
-importance: 2
-category: research
+title: How a group assembles
+description: Cells can gather while they are still dilute. Crowding is not the whole account.
+importance: 1
+category: collective
 ---
 
-Some bacteria form groups even when they are not packed tightly.
-Explanations that rely only on crowding therefore miss part of the phenomenon.
+This question is only about assembly.
+It is not about how the cells search, and it is not about how a population is lost.
 
-The cells move in a thin film of liquid, and that film can pull neighbors toward one another.
-In a crowd the pull is not the same as it is for an isolated pair.
-I am building a continuum picture of when that attraction is enough to organize the colony, checked against simulation and against what the experiments already show.
-The comparisons are not finished, so I am not putting the working numbers here.
+Some bacteria form groups before they are packed together.
+A surrounding film of liquid can draw neighbors toward one another, and the pull felt inside a crowd is not the pull felt by an isolated pair.
+I am comparing a continuum account of that attraction with simulation and with experiment.
+Those comparisons are unfinished, so the working numbers stay off this page.

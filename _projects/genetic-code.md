@@ -1,15 +1,17 @@
 ---
 layout: page
-title: Codes and the genes that use them
-description: Error buffering can come from ordinary selection, without freezing the code or adding an extra score.
-importance: 5
-category: research
+title: Codes that buffer errors
+description: Redundancy can be favored because it leaves more descendants, without freezing the code or scoring it by hand.
+importance: 1
+category: information
 ---
 
-The genetic code is redundant, and that redundancy buffers mistakes.
-Most accounts either hold the code fixed while only the genes evolve, or they judge the code by an information-theory score that is not the same thing as leaving more offspring.
+This line of work is separate from the mechanics and the collective behavior above.
+It is about information.
 
-I have been looking at populations in which the code and the sequences change together, with selection acting only on what gets expressed.
-In the small versions of that model, codes that buffer errors are the ones that remain, because they leave more descendants.
-These are toy alphabets.
-They are a check that the mechanism can work, not a claim about the biological code, and they are not a finished paper.
+The genetic code is redundant, and that redundancy buffers mistakes.
+Usual accounts either hold the code fixed and evolve only the genes, or they grade the code with an information-theory score that is not reproduction.
+I look at small models in which the code and the sequences change together, and selection acts only on what is expressed.
+In those models, codes that buffer errors are the ones that remain.
+They are toy alphabets, a check that the mechanism can work.
+They are not the biological code, and they are not a finished paper.
