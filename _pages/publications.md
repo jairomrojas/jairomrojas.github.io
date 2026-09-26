@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Peer-reviewed papers, one preprint, and manuscripts that are not yet public.
+description: Published papers.
 nav: true
 nav_order: 2
 ---

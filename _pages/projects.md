@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Five questions, each with a page that says what is written down and what is still open.
+description: Current research.
 nav: true
 nav_order: 3
 display_categories: [research]

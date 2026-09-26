@@ -8,7 +8,6 @@ The theme is al-folio v1 (Jekyll). Layouts live in the `al_folio_core` gem. Do n
 - `_projects/` — research pages, category `research`
 - `_bibliography/papers.bib` — the publication list
 - `_pages/talks.md`, `_pages/teaching.md`
-- `_data/cv.yml` — HTML CV; `assets/pdf/cv.pdf` is the 2026 PDF
 - `_config.yml`, `_data/socials.yml` — name, URL, email, icons
 - `.github/workflows/deploy.yml` — GitHub Pages
 
@@ -20,7 +19,7 @@ Working directory: repository root.
 - This repository has no test suite of its own.
 
 ## Do / Ask / Never
-- **Do:** keep manuscripts in preparation labeled as such, and say what is still open on a project page.
+- **Do:** keep the public page short. Published papers only. No CV file, no X account, no preprint.
 - **Ask:** before force-pushing `main`. A normal push publishes the site.
 - **Never:** restore the Hugo theme, or put unpublished simulation numbers on a public page.
 
