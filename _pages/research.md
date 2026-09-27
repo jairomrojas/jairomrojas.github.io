@@ -35,10 +35,10 @@ nav_order: 2
   </div>
   <figure class="research-lesson">
     <img
-      src="{{ '/assets/img/figures/collective-questions.png' | relative_url }}"
-      alt="Three separate questions. Assemble: cells still far apart, with a film between one pair. Search: three different paths inside one group. Persist: a steady row and one mark far from that row."
-      width="1600"
-      height="1600"
+      src="{{ '/assets/img/figures/collective-clusters.png' | relative_url }}"
+      alt="Cells still apart, beside cells gathered into a compact group and a group with an opening."
+      width="1544"
+      height="1659"
     >
   </figure>
 </section>
