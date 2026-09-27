@@ -99,3 +99,31 @@ nav_order: 2
     >
   </figure>
 </section>
+
+<section class="research-group" id="education">
+  <h2>Learning in the age of AI</h2>
+  <div class="research-copy">
+    <p>What does it mean to be computationally literate when an AI can write your code for you?</p>
+    <p>
+      As part of the <a href="https://ae3.grainger.illinois.edu/holding/strategic-instructional-initiatives-program-siip">Strategic Instructional Innovations Program (SIIP)</a> — a UIUC initiative that supports faculty-led curriculum development — I am a student developer on <em>AI for Creative Computation</em>, a project running in upper-division dynamics and control courses.
+    </p>
+    <p>
+      The central question is not whether students should use generative AI, but <em>how</em>.
+      We are comparing four modes: no AI, unguided AI, curated AI, and AI as a creative collaborator.
+      The goal is to foster genuine skepticism — students who can critique AI output, catch its mistakes, and use it to explore problems more deeply rather than to sidestep thinking.
+    </p>
+    <p>
+      The diagram below captures the spirit of the approach: a student team, a computational tool, and a generative AI model work together in an iterative loop, with the student directing and assessing at each turn, and the result always verified against real physical constraints.
+      The longer goal is to develop principled evaluation criteria for AI-assisted work — a question that has no settled answer yet.
+    </p>
+  </div>
+  <figure class="research-lesson">
+    <img
+      src="{{ '/assets/img/figures/education-ai-collaboration-loop.jpg' | relative_url }}"
+      alt="Iterative loop diagram: an initial problem feeds into a student team working with a computational tool and GenAI; the output is a new solution verified against physical constraints, with the student assessing and redirecting at each iteration."
+      width="1200"
+      height="800"
+    >
+  </figure>
+</section>
+
