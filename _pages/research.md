@@ -14,10 +14,10 @@ nav_order: 2
   <p>Our <a href="https://arxiv.org/abs/2501.17810">2025 preprint</a> studies how cell outlines change along the apical–basal axis using a three-dimensional shell model.</p>
   <figure class="research-lesson">
     <img
-      src="{{ '/assets/img/figures/mechanics-shell.png' | relative_url }}"
-      alt="One cell seen from the side. A smooth apical outline and a differently shaped basal outline are joined by the cell wall."
-      width="1600"
-      height="1600"
+      src="{{ '/assets/img/figures/mechanics-apical-basal.png' | relative_url }}"
+      alt="Apical, medial, and basal outlines of one cell, beside a three-dimensional shell whose cross-section changes along its height. From the 2025 preprint."
+      width="1035"
+      height="630"
     >
   </figure>
 </section>
@@ -46,10 +46,10 @@ nav_order: 2
   <p class="research-note">This work uses toy alphabets rather than the full biological genetic code.</p>
   <figure class="research-lesson">
     <img
-      src="{{ '/assets/img/figures/information-toy-alphabet.png' | relative_url }}"
-      alt="A toy alphabet. A circle and a square both lead to one product, and a triangle and a diamond both lead to another. Not the biological genetic code."
-      width="1600"
-      height="1600"
+      src="{{ '/assets/img/figures/information-foraging.png' | relative_url }}"
+      alt="Foraging responses. A cell searches when food is scarce and exploits when food is rich, by changing its jitter, heading, speed, or tumbles."
+      width="2000"
+      height="1800"
     >
   </figure>
 </section>
