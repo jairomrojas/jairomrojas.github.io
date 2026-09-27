@@ -352,7 +352,14 @@
   }
   .publications img.preview,
   .publications .preview {
-    width: 6.25rem !important;
+    display: block;
+    position: static !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 1 / 1;
+    object-fit: contain !important;
+    object-position: center;
   }
   .site-footer {
     margin-top: 1.5rem;
@@ -558,49 +565,16 @@
     position: static;
     display: block;
     width: 100%;
-    max-width: none !important;
+    max-width: 100% !important;
     height: auto !important;
     aspect-ratio: auto !important;
     object-fit: contain;
     background: #fff;
     border: 1px solid var(--rule);
   }
-  /* Square viewports select a useful detail without changing source files. */
-  .figure-crop,
-  .publication-figure {
-    position: relative;
-    display: block;
-    width: 100%;
-    aspect-ratio: 1;
-    overflow: hidden;
-    background: white;
-    border: 1px solid var(--rule);
+  .publications .row > .abbr {
+    min-width: 0;
   }
-  .publication-figure figure,
-  .publication-figure picture {
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-  }
-  .figure-crop img,
-  .publications .publication-figure img.preview {
-    position: absolute;
-    display: block;
-    max-width: none !important;
-    height: auto !important;
-    aspect-ratio: auto !important;
-    object-fit: fill !important;
-    border: 0;
-    border-radius: 0;
-  }
-  .crop-microscopy img { width: 701.18% !important; left: -115.29%; top: -418.82%; }
-  .publications .crop-model img.preview { width: 277.2% !important; left: -176.74%; top: -81.4%; }
-  .publications .crop-pendulum img.preview { width: 454.55% !important; left: -307.95%; top: -136.36%; }
-  .publications .crop-defects img.preview { width: 107% !important; left: -3.5%; top: -3.5%; }
-  .publications .crop-eigenvalues img.preview,
-  .publications .crop-neutrino img.preview,
-  .publications .crop-flux img.preview { width: 100% !important; left: 0; top: 0; }
   /* Publication hierarchy and a larger image column. */
   .publications .row {
     grid-template-columns: 10rem minmax(0, 1fr);
@@ -648,7 +622,7 @@
   }
   /* Event names lead; organization logos remain secondary. */
   .post .activity-item {
-    grid-template-columns: 4rem minmax(0, 1fr) 6.4rem;
+    grid-template-columns: 4rem minmax(0, 1fr) 7.5rem;
     gap: 1.5rem;
     padding: 1rem 0;
   }
@@ -657,10 +631,22 @@
     grid-row: 1;
   }
   .post .activity-logo {
+    display: flex;
     grid-column: 3;
     grid-row: 1;
-    border: 0;
-    background: transparent;
+    min-width: 0;
+    width: 7.5rem;
+    height: 3.4rem;
+    padding: 0.25rem 0.4rem;
+    background: #fff;
+    border: 1px solid var(--rule);
+  }
+  .post .activity-logo img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
   }
   .post .activity-title {
     margin-bottom: 0.3rem;
@@ -748,12 +734,14 @@
       margin-top: 0;
     }
     .post .activity-item {
-      grid-template-columns: 3rem minmax(0, 1fr);
+      grid-template-columns: 3rem minmax(0, 1fr) 4.8rem;
       gap: 0.6rem;
-      align-items: start;
+      align-items: center;
     }
     .post .activity-logo {
-      display: none;
+      display: flex;
+      width: 4.8rem;
+      height: 2.4rem;
     }
   }
 </style>

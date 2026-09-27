@@ -46,25 +46,16 @@
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
         {% else %}
           {% assign preview_data = site.data.publication_previews[entry.key] %}
-          {% assign preview_source = preview_data.source | default: entry.preview %}
-          {% assign entry_path = preview_source | prepend: '/assets/img/publication_preview/' %}
-          {% assign preview_sizes = '160px' %}
-          {% if preview_data.crop == 'model' or preview_data.crop == 'pendulum' %}
-            {% assign preview_sizes = '750px' %}
-          {% endif %}
-          {% assign preview_alt = site.data.publication_previews[entry.key].alt | default: entry.title %}
-          <div class="publication-figure crop-{{ preview_data.crop | default: 'plain' }}">
-          {%
-            include figure.liquid
-            loading="lazy"
-            path=entry_path
-            sizes=preview_sizes
+          {% assign preview_file = entry.preview | split: '/' | last %}
+          {% assign preview_alt = preview_data.alt | default: entry.title %}
+          <img
+            class="preview"
+            src="{{ preview_file | prepend: '/assets/img/figures/' | relative_url }}"
+            alt="{{ preview_alt }}"
             width="480"
             height="480"
-            class="preview z-depth-1 rounded"
-            alt=preview_alt
-          %}
-          </div>
+            loading="lazy"
+          >
         {% endif %}
       {% endif %}
     </div>
