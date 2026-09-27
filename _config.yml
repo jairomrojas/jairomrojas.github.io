@@ -295,6 +295,9 @@ plugins:
   - al_marimo
   - al_rtl
 
+# The plugin is installed with the Jekyll group and warns when this key is missing.
+jekyll_get_json: []
+
 # Sitemap settings
 defaults:
   - scope:

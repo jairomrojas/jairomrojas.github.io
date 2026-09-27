@@ -447,6 +447,12 @@
   .post article a:hover {
     text-decoration-thickness: 2px;
   }
+  .post article .social a,
+  .post article .social a:hover,
+  .post article .social a:focus {
+    text-decoration: none;
+    border-bottom: 0;
+  }
   .navbar .navbar-nav .nav-link {
     font-size: 1rem;
     font-weight: 400;
@@ -543,6 +549,21 @@
   .post .research-note {
     color: var(--muted);
     font-size: 0.9rem;
+  }
+  .post .research-lesson {
+    width: min(100%, 40rem);
+    margin: 0.6rem 0 0;
+  }
+  .post .research-lesson img {
+    position: static;
+    display: block;
+    width: 100%;
+    max-width: none !important;
+    height: auto !important;
+    aspect-ratio: auto !important;
+    object-fit: contain;
+    background: #fff;
+    border: 1px solid var(--rule);
   }
   /* Square viewports select a useful detail without changing source files. */
   .figure-crop,
