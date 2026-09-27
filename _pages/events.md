@@ -5,6 +5,7 @@ permalink: /events/
 description: Selected conferences and schools.
 nav: true
 nav_order: 4
+nav_label: Events
 ---
 
 <div class="activity-list">
@@ -66,26 +67,6 @@ nav_order: 4
     <div>
       <p class="activity-title"><a href="https://meetings-archive.aps.org/mar/2024/">APS March Meeting</a></p>
       <p class="activity-meta">Minneapolis · Talk · A 3D continuum shell theory of epithelial cells</p>
-    </div>
-  </div>
-  <div class="activity-item">
-    <div class="activity-date">Mar<br>2023</div>
-    <a class="activity-logo" href="https://meetings-archive.aps.org/mar/2023/">
-      <img src="{{ '/assets/img/logos/aps.png' | relative_url }}" alt="American Physical Society">
-    </a>
-    <div>
-      <p class="activity-title"><a href="https://meetings-archive.aps.org/mar/2023/">APS March Meeting</a></p>
-      <p class="activity-meta">Las Vegas · Talk · Cell deformation signatures along the apical–basal axis</p>
-    </div>
-  </div>
-  <div class="activity-item">
-    <div class="activity-date">Mar<br>2022</div>
-    <a class="activity-logo" href="https://www.quantitativebiology.northwestern.edu/conference/">
-      <img src="{{ '/assets/img/logos/northwestern.png' | relative_url }}" alt="Northwestern University">
-    </a>
-    <div>
-      <p class="activity-title"><a href="https://www.quantitativebiology.northwestern.edu/conference/">Conference on Quantitative Approaches in Biology</a></p>
-      <p class="activity-meta">Evanston · Talk · In-plane cell anisotropy from out-of-plane stress</p>
     </div>
   </div>
 </div>

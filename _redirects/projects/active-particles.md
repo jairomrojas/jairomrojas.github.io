@@ -1,4 +1,4 @@
 ---
 layout: redirect
-destination: /projects/capillary-colonies/
+destination: /research/#collective
 ---

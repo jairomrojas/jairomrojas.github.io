@@ -1,4 +1,4 @@
 ---
 layout: redirect
-destination: /projects/epithelial-shape/
+destination: /research/#mechanics
 ---

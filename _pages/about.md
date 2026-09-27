@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Department of Physics, University of Illinois Urbana-Champaign
+subtitle: Biological physics and soft matter
 
 profile:
   align: right
@@ -23,9 +23,10 @@ latest_posts:
   limit: 3
 ---
 
-I am a PhD student in Physics at the University of Illinois Urbana-Champaign, working with Sascha Hilgenfeldt.
+I am a PhD student in physics at the University of Illinois Urbana-Champaign, where I work with Sascha Hilgenfeldt.
 
-I work in biological physics and soft matter.
-I am interested in how forces and fluctuations organize living systems, from cells to populations.
+I study how forces and fluctuations shape living systems, from the mechanics of individual cells to collective behavior and population dynamics. I use continuum mechanics and statistical physics to connect models with quantitative biological observations.
 
-My earlier degrees in physics are from the Pontificia Universidad Católica del Perú, the Instituto de Física Teórica in São Paulo, and the Perimeter Institute and the University of Waterloo.
+I earned master's degrees in physics at the Instituto de Física Teórica (IFT–UNESP) in São Paulo and the University of Waterloo, where I completed the Perimeter Scholars International program at the Perimeter Institute. My undergraduate degree in physics is from the Pontificia Universidad Católica del Perú.
+
+The [SAIFR/IFT–Perimeter Fellowship](https://journeys.ictp-saifr.org/saifr-perimeter-fellowships/), awarded through [Journeys into Theoretical Physics](https://journeys.ictp-saifr.org/), supported my master's studies.

@@ -1,0 +1,19 @@
+rojas2025shell:
+  alt: "Three-dimensional shell model of an epithelial cell."
+  crop: model
+chang2026computational:
+  alt: "Pendulum simulation from an interactive dynamics teaching notebook."
+  crop: pendulum
+  source: ../figures/chang-computational.png
+budzik2021defects:
+  alt: "Flow diagram connecting conformal defects in the space of two couplings."
+  crop: defects
+cachazo2020biadjoint:
+  alt: "Magnitudes of eigenvalues of the matrix Delta, ordered by index."
+  crop: eigenvalues
+adams2020pixel:
+  alt: "Neural network architecture for classifying neutrino events from detector readout."
+  crop: neutrino
+bazo2018fluka:
+  alt: "Neutron flux as a function of energy, plotted on logarithmic axes."
+  crop: flux

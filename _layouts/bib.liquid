@@ -45,17 +45,26 @@
         {% elsif entry.preview contains '://' %}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
         {% else %}
-          {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
+          {% assign preview_data = site.data.publication_previews[entry.key] %}
+          {% assign preview_source = preview_data.source | default: entry.preview %}
+          {% assign entry_path = preview_source | prepend: '/assets/img/publication_preview/' %}
+          {% assign preview_sizes = '160px' %}
+          {% if preview_data.crop == 'model' or preview_data.crop == 'pendulum' %}
+            {% assign preview_sizes = '750px' %}
+          {% endif %}
+          {% assign preview_alt = site.data.publication_previews[entry.key].alt | default: entry.title %}
+          <div class="publication-figure crop-{{ preview_data.crop | default: 'plain' }}">
           {%
             include figure.liquid
-            loading="eager"
+            loading="lazy"
             path=entry_path
-            sizes = "200px"
+            sizes=preview_sizes
+            width="480"
+            height="480"
             class="preview z-depth-1 rounded"
-            zoomable=true
-            avoid_scaling=true
-            alt=entry.preview
+            alt=preview_alt
           %}
+          </div>
         {% endif %}
       {% endif %}
     </div>
@@ -216,9 +225,12 @@
     <div class="periodical">
       {{ periodical | strip }}
     </div>
-    <div class="periodical">
-      {{ entry.note | strip }}
-    </div>
+    {% if entry.note %}
+      <div class="periodical">{{ entry.note | strip }}</div>
+    {% endif %}
+    {% if paper_url != '' %}
+      <div class="publication-actions"><a href="{{ paper_url }}">{% if entry.key == 'rojas2025shell' %}Read preprint{% else %}Read paper{% endif %}</a></div>
+    {% endif %}
 
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
