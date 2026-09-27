@@ -10,14 +10,13 @@ nav_order: 2
 <section class="research-group" id="mechanics">
   <h2>The physics of living form</h2>
   <div class="research-copy">
-    <p>One of the most basic questions in biology is how an organism builds its own body — how flat sheets of cells fold into organs, tubes, and three-dimensional structures with extraordinary precision.</p>
+    <p>How does an organism build its own body — how do flat sheets of cells fold into organs, tubes, and three-dimensional structures?</p>
     <p>
-      The mechanical properties of individual cells are at the heart of this process.
-      I work to understand how a cell's internal structure — the balance between its liquid-like interior and its stiffer outer cortex — sets the forces that shape tissues.
-      Rather than fitting parameters by hand, I derive cell energy from first principles using continuum mechanics, connecting microscopic material properties to the geometry of entire epithelial sheets.
-    </p>
-    <p>
-      This approach explains why cells look different at their top than at their base, gives tissue models a rigorous mechanical foundation, and opens a path toward predicting how tissues fold, heal, and fail.
+      The forces come from the cells themselves: a liquid-like interior held by a stiffer cortex.
+      I derive that energy from continuum mechanics, so material properties set the geometry of a whole epithelial sheet, rather than parameters chosen by hand.
+      The same description accounts for why a cell looks different at its top than at its base.
+      A tissue model can then start from that energy, and ask how a sheet folds, heals, or fails.
+      The test is to set that prediction beside the measured outline, at the same position from the top of the cell to its base.
     </p>
   </div>
   <figure class="research-lesson">
@@ -33,12 +32,14 @@ nav_order: 2
 <section class="research-group" id="collective">
   <h2>When many become one</h2>
   <div class="research-copy">
-    <p>Living things rarely act alone. Even single-celled organisms form communities, coordinate movement, and navigate their environments in ways no individual could achieve on its own.</p>
+    <p>Living cells rarely act alone.
+    Communities assemble, search, and persist in ways no one cell can manage by itself.</p>
     <p>
-      I study the physical mechanisms behind three intertwined questions: how do cells <strong>assemble</strong> into groups before they are even crowded together — and what forces drive that? How does a population <strong>search</strong> its environment, and what do collective spatial patterns reveal about individual behavior? And how does a community <strong>persist</strong>, given that random fluctuations in birth, death, and motion can end even a thriving population through a single rare event?
-    </p>
-    <p>
-      Across these questions, I use tools from soft matter theory, kinetic theory, and large-deviation methods to connect microscopic interactions to measurable collective outcomes.
+      How do cells <strong>assemble</strong> before they are crowded, and what force draws them in?
+      How does a population <strong>search</strong> its surroundings, and what do the spatial patterns reveal about the individual?
+      How does a community <strong>persist</strong> when one rare fluctuation in birth, death, or motion can end it?
+      Soft-matter theory, kinetic theory, and large-deviation methods connect those interactions to what a group actually shows.
+      The aim is to read an individual rule from that pattern, whether it is a cluster, a search path, or a sudden collapse.
     </p>
   </div>
   <figure class="research-lesson">
@@ -54,13 +55,14 @@ nav_order: 2
 <section class="research-group" id="information">
   <h2>Robustness and the logic of the code</h2>
   <div class="research-copy">
-    <p>Every living cell reads its genome through a translation code — a dictionary that maps sequences of nucleotides to amino acids. This code is strikingly consistent across all of life, and strikingly resilient to errors. How does such robustness arise, and how is it maintained as the code itself evolves?</p>
+    <p>A cell reads its genome through a translation code, a dictionary from nucleotides to amino acids.
+    The code is shared across life, and it stays readable when a step goes wrong.</p>
     <p>
-      These questions sit at the intersection of evolutionary dynamics, information theory, and statistical physics.
-      I study how populations of evolving sequences and their codes together find error-buffering solutions through natural selection alone — without any externally imposed fitness criterion.
-    </p>
-    <p>
-      The broader goal is to understand what physical and evolutionary pressures make biological information processing so reliable, and whether those principles generalize beyond the genetic code.
+      How does that robustness arise while the code itself can still change?
+      I study populations in which sequences and codes evolve together, and selection acts only on what is expressed.
+      Error-buffering codes are the ones that remain, with no fitness rule imposed from outside.
+      The aim is to see which physical and evolutionary pressures make that processing reliable, and whether the lesson reaches beyond this particular code.
+      The comparison is about the population, not the code alone.
     </p>
   </div>
   <figure class="research-lesson">
@@ -76,13 +78,14 @@ nav_order: 2
 <section class="research-group" id="education">
   <h2>Teaching and thinking with AI</h2>
   <div class="research-copy">
-    <p>Generative AI is changing what it means to learn computational science. The challenge is not whether to use it, but how to use it in a way that deepens understanding rather than replacing it.</p>
+    <p>Generative AI changes what it means to learn computational science.
+    The question is how to use it so that understanding deepens.</p>
     <p>
-      As part of the <a href="https://ae3.grainger.illinois.edu/holding/strategic-instructional-initiatives-program-siip">Strategic Instructional Innovations Program (SIIP)</a> at UIUC, I am a student developer on <em>AI for Creative Computation</em>, exploring how AI tools can be integrated into engineering courses to foster genuine problem-solving and critical thinking.
-      We compare different modes of engagement — from no AI to AI as a full creative collaborator — to understand how each shapes what students actually learn.
-    </p>
-    <p>
-      The goal is to cultivate skepticism and creativity: students who can direct, critique, and build on AI output to arrive at solutions they could not have reached alone.
+      As part of the <a href="https://ae3.grainger.illinois.edu/holding/strategic-instructional-initiatives-program-siip" style="font-weight:bold;text-decoration:none;color:inherit">Strategic Instructional Innovations Program (SIIP)</a> at UIUC, I am a student developer on <em>AI for Creative Computation</em>, in upper-division dynamics and control courses.
+      We compare modes of engagement, from no AI to AI as a collaborator, and ask what students actually learn in each.
+      A student has to direct the tool, catch an error, and check the result against a physical constraint.
+      The point is someone who can send the model back and still explain the solution without it.
+      What they keep has to be a result they can defend from the physics, on their own.
     </p>
   </div>
   <figure class="research-lesson">
