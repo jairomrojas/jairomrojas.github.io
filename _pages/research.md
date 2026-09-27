@@ -12,18 +12,12 @@ nav_order: 2
   <div class="research-copy">
     <p>How does a cell's internal structure determine the shape of the tissue it belongs to?</p>
     <p>
-      Epithelial sheets — the thin walls that line organs and embryos — are built from cells packed together like tiles.
-      The standard physics model treats each cell as a polygon and assigns an energy penalty based on the length of its outline.
-      That penalty works surprisingly well, but it is put in by hand, and it has nothing to say about why cells look different at their top than at their base.
+      Epithelial sheets are built from cells packed like tiles, and the standard model assigns each cell an energy penalty based on its outline length — a term put in by hand with no account of why cells look different at their top than at their base.
+      I derive that energy from first principles, treating the cell as a composite of a liquid-like interior and a stiffer cortex, and connect it directly to experimental observations of shape change along the cell's height.
     </p>
     <p>
-      My approach is to start one level deeper: to ask what the cell's own mechanical structure — its liquid-like interior and its stiffer outer cortex — implies for the energy of deformation.
-      Using continuum mechanics, I derive that energy from first principles rather than assuming it.
-      This gives tissue models a firmer physical foundation and, for the first time, a way to predict how cell shape changes along the height of the cell.
-    </p>
-    <p>
-      Our <a href="https://arxiv.org/abs/2501.17810">2025 preprint</a> develops a three-dimensional continuum shell model that captures basal mechanical coupling and matches experimental observations in epithelial cells.
-      In a companion manuscript (in preparation), we treat the cell as a bonded disk-ring composite and derive exactly what energy exponent the perimeter term should have — validating the spirit of standard vertex models while providing, for the first time, a rigorous mechanical derivation of the perimeter energy term.
+      Our <a href="https://arxiv.org/abs/2501.17810">2025 preprint</a> develops a 3D continuum shell model that captures this basal coupling.
+      A companion manuscript (in preparation) derives the perimeter energy exponent exactly — giving vertex models their first rigorous mechanical foundation.
     </p>
   </div>
   <figure class="research-lesson">
@@ -39,29 +33,18 @@ nav_order: 2
 <section class="research-group" id="collective">
   <h2>Collective behavior</h2>
   <div class="research-copy">
-    <p>What draws individual cells together into groups, and how does a population search for food — or survive long enough to find it?</p>
+    <p>What draws individual cells together, how does a population search for food, and how does it avoid going extinct?</p>
     <p>
-      These are three separate questions, and I am working on each of them.
+      On <strong>assembly</strong>: the thin liquid film covering bacteria creates capillary attractions that a crowd screens into short-range interactions — analogous to charge screening in electromagnetism.
+      A kinetic closure turns this into a continuum hydrodynamic theory of active capillary aggregation (in preparation).
     </p>
     <p>
-      <strong>Assembly.</strong>
-      Some bacteria form tight clusters long before they are densely packed — something that ordinary crowding theories cannot explain.
-      Working with collaborators from the Universitat de Barcelona and the Max Planck Institute, I found that the thin film of liquid covering the bacteria creates attractive capillary forces between neighbors.
-      Inside a crowd, those forces are not the same as between an isolated pair: the crowd <em>screens</em> the long-range attraction, in a way that is mathematically analogous to how charge screening works in electromagnetism.
-      A kinetic theory closure turns this microscopic picture into a continuum hydrodynamic framework, providing a route to predict collective phase boundaries directly from the underlying physics (in preparation).
+      On <strong>foraging</strong>: a colony has already averaged over thousands of noisy individual tracks.
+      I show that population-level spatial patterns carry two distinct timescales, letting us infer individual search strategies from coarser collective observations (in preparation).
     </p>
     <p>
-      <strong>Foraging.</strong>
-      A single bacterium is too noisy to track reliably; measuring many individuals at once is slow.
-      But the colony as a whole has already averaged over thousands of individuals.
-      In analytical work with Naama Brenner and Ahmed El Hady, I show that the population-level pattern carries two distinct timescales: cells maximize local nutrient intake well before the colony as a whole settles into its global distribution.
-      This separation lets us infer individual search strategies from coarser population-level observations (in preparation).
-    </p>
-    <p>
-      <strong>Persistence.</strong>
-      A population sitting at a comfortable density can still be wiped out by a single large fluctuation — not by a slow average decline, but by a rare event.
-      I apply large-deviation theory to study how spatial structure changes the likelihood and the path of such rare events.
-      The simple one-dimensional case is in hand; the same question in higher dimensions remains open.
+      On <strong>persistence</strong>: a population at comfortable density can still be ended by a single large fluctuation.
+      I use large-deviation theory to study how spatial structure shapes the path and likelihood of that rare event.
     </p>
   </div>
   <figure class="research-lesson">
@@ -77,16 +60,14 @@ nav_order: 2
 <section class="research-group" id="information">
   <h2>Information</h2>
   <div class="research-copy">
-    <p>How can a code become more robust to errors while the code itself is still free to change?</p>
+    <p>How can a code grow more robust to errors while the code itself is still free to change?</p>
     <p>
-      The genetic code is redundant — multiple triplets of nucleotides map to the same amino acid — and that redundancy buffers mistakes during protein synthesis.
-      Standard theoretical accounts either hold the code fixed while genes evolve, or they score codes using information-theoretic measures that have no direct connection to whether an organism leaves descendants.
+      Standard accounts either freeze the genetic code and evolve the sequences, or score codes by information-theoretic measures disconnected from reproduction.
+      I study small models where code and sequences coevolve and selection acts only on what is expressed — nothing more.
     </p>
     <p>
-      I study small models in which the code and the sequences it encodes change together, and selection acts only on what the sequence expresses — nothing more.
-      Even so, codes that buffer translation errors turn out to be the ones that survive.
-      This is a proof of mechanism, not a finished theory of the biological genetic code;
-      it is a check that natural selection alone, without any hand-tuned fitness function, can push a code toward robustness.
+      Even so, codes that buffer translation errors are the ones that survive.
+      This is a proof of mechanism in toy alphabets: natural selection alone, without any hand-tuned fitness function, can drive a code toward robustness.
     </p>
     <p class="research-note">This work uses toy alphabets rather than the full biological genetic code.</p>
   </div>
@@ -105,16 +86,12 @@ nav_order: 2
   <div class="research-copy">
     <p>What does it mean to be computationally literate when an AI can write your code for you?</p>
     <p>
-      As part of the <a href="https://ae3.grainger.illinois.edu/holding/strategic-instructional-initiatives-program-siip">Strategic Instructional Innovations Program (SIIP)</a> — a UIUC initiative that supports faculty-led curriculum development — I am a student developer on <em>AI for Creative Computation</em>, a project running in upper-division dynamics and control courses.
+      As part of the <a href="https://ae3.grainger.illinois.edu/holding/strategic-instructional-initiatives-program-siip">Strategic Instructional Innovations Program (SIIP)</a> at UIUC, I am a student developer on <em>AI for Creative Computation</em>, a project running in upper-division dynamics and control courses.
+      We compare four modes — no AI, unguided AI, curated AI, and AI as a creative collaborator — to understand how each shapes what students actually learn and retain.
     </p>
     <p>
-      The central question is not whether students should use generative AI, but <em>how</em>.
-      We are comparing four modes: no AI, unguided AI, curated AI, and AI as a creative collaborator.
-      The goal is to foster genuine skepticism — students who can critique AI output, catch its mistakes, and use it to explore problems more deeply rather than to sidestep thinking.
-    </p>
-    <p>
-      The diagram below captures the spirit of the approach: a student team, a computational tool, and a generative AI model work together in an iterative loop, with the student directing and assessing at each turn, and the result always verified against real physical constraints.
-      The longer goal is to develop principled evaluation criteria for AI-assisted work — a question that has no settled answer yet.
+      The goal is genuine skepticism: students who can critique AI output, catch its errors, and use it to explore problems more deeply.
+      The diagram shows the iterative loop at the heart of the approach — student, computational tool, and GenAI working together, with every result verified against real physical constraints.
     </p>
   </div>
   <figure class="research-lesson">
@@ -126,4 +103,3 @@ nav_order: 2
     >
   </figure>
 </section>
-
