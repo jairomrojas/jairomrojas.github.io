@@ -630,9 +630,23 @@
     font-size: 0.9rem;
     line-height: 1.5;
   }
-  .publication-actions {
-    margin-top: 0.6rem;
-    font-size: 0.85rem;
+  .publications .venue-link {
+    display: inline-block;
+    margin-left: 0.4rem;
+    color: inherit;
+    text-decoration: none;
+    line-height: 1;
+    vertical-align: -0.15em;
+  }
+  .publications .venue-link:hover,
+  .publications .venue-link:focus-visible {
+    color: var(--accent);
+  }
+  .publications .venue-link .ai-arxiv {
+    font-size: 1.25rem;
+  }
+  .publications .venue-link .fa-file-lines {
+    font-size: 1.05rem;
   }
   /* Event names lead; organization logos remain secondary. */
   .post .activity-item {
@@ -748,10 +762,6 @@
     .publications ol.bibliography li .title {
       margin: 0;
       font-size: 1.06rem;
-    }
-    .publications .publication-actions {
-      grid-column: 1 / -1;
-      margin-top: 0;
     }
     .post .activity-item {
       grid-template-columns: 3rem minmax(0, 1fr) 4.8rem;

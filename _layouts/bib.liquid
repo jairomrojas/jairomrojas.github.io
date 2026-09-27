@@ -171,7 +171,7 @@
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}
-      {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
+      {% capture entrytype %}<em>{{ entry.booktitle }}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
     {% else %}
@@ -199,26 +199,24 @@
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
+      {% if paper_url != '' %}
+        {% assign is_preprint = false %}
+        {% if entry.eprint or entry.arxiv %}
+          {% assign is_preprint = true %}
+        {% elsif entry.journal == 'arXiv' %}
+          {% assign is_preprint = true %}
+        {% endif %}
+        <a class="venue-link" href="{{ paper_url }}" title="{% if is_preprint %}View on arXiv{% else %}View published paper{% endif %}" aria-label="{% if is_preprint %}View on arXiv{% else %}View published paper{% endif %}">
+          {% if is_preprint %}
+            <i class="ai ai-arxiv" aria-hidden="true"></i>
+          {% else %}
+            <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
+          {% endif %}
+        </a>
+      {% endif %}
     </div>
     {% if entry.note %}
       <div class="periodical">{{ entry.note | strip }}</div>
-    {% endif %}
-    {% if paper_url != '' %}
-      {% assign is_preprint = false %}
-      {% if entry.eprint or entry.arxiv %}
-        {% assign is_preprint = true %}
-      {% elsif entry.journal == 'arXiv' %}
-        {% assign is_preprint = true %}
-      {% endif %}
-      <div class="publication-actions">
-        <a href="{{ paper_url }}" title="{% if is_preprint %}View on arXiv{% else %}View published paper{% endif %}" style="text-decoration:none; font-size:1.1rem; color:inherit;">
-          {% if is_preprint %}
-            <i class="ai ai-arxiv" style="font-size:1.25rem;"></i>
-          {% else %}
-            <i class="fa-regular fa-file-lines" style="font-size:1.1rem;"></i>
-          {% endif %}
-        </a>
-      </div>
     {% endif %}
 
     {% if site.enable_publication_badges %}
