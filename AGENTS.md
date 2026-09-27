@@ -1,26 +1,27 @@
 # AGENTS.md — Jairo M. Rojas website
 
-Personal academic site, published at https://jairomrojas.github.io/.
-The theme is al-folio v1 (Jekyll). Layouts live in the `al_folio_core` gem. Do not copy theme internals into this repo.
+Personal academic site at https://jairomrojas.github.io/. Theme: al-folio v1. Theme layouts stay in the `al_folio_core` gem.
 
-## Layout
-- `_pages/about.md` — homepage biography
-- `_pages/research.md` — research interests, kept general
+## Where things are
+- `_pages/about.md` — homepage
+- `_pages/research.md` — three groups: mechanics, collective, information
+- `_projects/*.md` — one research interest each. `category` must be one of those three groups
 - `_bibliography/papers.bib` — published papers and the arXiv preprint
-- `_config.yml`, `_data/socials.yml` — name, URL, email, icons
+- `assets/img/figures/` — portrait and every publication figure
+- `_data/socials.yml`, `_config.yml` — email, ORCID, Scholar, site name
+- `_redirects/` — old URLs. Do not delete them
 - `.github/workflows/deploy.yml` — GitHub Pages
 
-## Commands
-Working directory: repository root.
+Publication `preview` values are `../figures/<file>.png` so the theme finds the file in `assets/img/figures/`.
 
+## Commands
 - Publish: `git push origin main`
-- Local preview, with Ruby 3.3 and Bundler: `bundle exec jekyll serve`
-- This repository has no test suite of its own.
+- Local preview: `bundle exec jekyll serve` (Ruby 3.3)
 
 ## Do / Ask / Never
-- **Do:** keep research interests general. No talks page, no teaching page, no CV, no GitHub icon, no manuscripts in preparation.
-- **Ask:** before force-pushing `main`. A normal push publishes the site.
-- **Never:** restore the Hugo theme, or put unpublished simulation numbers on a public page.
+- **Do:** keep each research interest to its own question. Keep figures in `assets/img/figures/`.
+- **Ask:** before force-pushing `main`.
+- **Never:** restore the Hugo theme, add a CV, or publish unpublished simulation numbers.
 
 ## Handoff
-Session state is the local, untracked `HANDOFF.md`.
+Local untracked `HANDOFF.md`.

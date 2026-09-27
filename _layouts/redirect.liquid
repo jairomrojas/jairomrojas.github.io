@@ -1,12 +1,13 @@
+{% assign dest = page.destination | default: "/" %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Jairo M Rojas</title>
-    <link rel="canonical" href="{{ '/' | absolute_url }}">
-    <meta http-equiv="refresh" content="0; url={{ '/' | relative_url }}">
+    <link rel="canonical" href="{{ site.url }}{{ dest }}">
+    <meta http-equiv="refresh" content="0; url={{ dest }}">
   </head>
   <body>
-    <p><a href="{{ '/' | relative_url }}">Jairo M Rojas</a></p>
+    <p><a href="{{ dest }}">Jairo M Rojas</a></p>
   </body>
 </html>

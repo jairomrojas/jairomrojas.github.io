@@ -196,6 +196,9 @@ collections:
     output: true
   teachings:
     output: false
+  redirects:
+    output: true
+    permalink: /:path/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -235,7 +238,7 @@ exclude:
   - purgecss.config.js
   - README.md
   - readme_preview/
-  - assets/img/portrait/
+  - assets/img/figures/portrait-source.tif
   - gems/
   - migrations/
   - vendor

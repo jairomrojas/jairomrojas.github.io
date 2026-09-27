@@ -2,18 +2,27 @@
 
 Academic site: https://jairomrojas.github.io/
 
-The site uses [al-folio](https://github.com/alshedivat/al-folio) v1.
-A push to `main` builds it with Jekyll and publishes to GitHub Pages.
+Built with [al-folio](https://github.com/alshedivat/al-folio). A push to `main` publishes it.
 
-## Where to edit
+## Edit these
 
-| What | File |
+| What | Where |
 | --- | --- |
-| Biography and portrait | `_pages/about.md`, `assets/img/prof_pic.jpg` (source file: `assets/img/portrait/`) |
-| Research interests | `_pages/research.md` |
+| Biography | `_pages/about.md` |
+| Research interests | `_projects/*.md`, grouped in `_pages/research.md` |
 | Publications | `_bibliography/papers.bib` |
-| Name, email, links | `_config.yml`, `_data/socials.yml` |
+| Every figure | `assets/img/figures/` |
+| Name, email, links | `_config.yml` and `_data/socials.yml` |
 
-In a BibTeX author list, the name has to match the forms in `scholar:` inside `_config.yml` (`Jairo M. Rojas`, `J. M. Rojas`, `J. Rojas`) or it will not be highlighted.
+The portrait on the front page is `assets/img/figures/portrait.jpg`.
+The camera original is `portrait-source.tif` in that same folder. It is not published.
 
-The public page stays short. Do not add a CV file, a social-media account, or an unpublished manuscript.
+A publication figure is named in the BibTeX `preview` field as `../figures/<file>.png`.
+The theme looks in another folder, and that relative path is what points it at `assets/img/figures/`.
+
+Old addresses (the previous Hugo pages, the CV, talks, and teaching) live in `_redirects/`.
+Each file is only a destination. Leave them there so those links do not 404.
+
+## Do not add
+
+A CV file, a social-media account, a manuscript that is only in preparation, or unpublished numbers.
