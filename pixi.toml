@@ -1,0 +1,13 @@
+[workspace]
+authors = ["Jairo M Rojas <53532759+jairomrojas@users.noreply.github.com>"]
+channels = ["conda-forge"]
+name = "Website"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+build = "bundle exec jekyll build"
+serve = "bundle exec jekyll serve --host 127.0.0.1 --port 4000 --livereload"
+
+[dependencies]
+imagemagick = ">=7.1.2_31,<8"

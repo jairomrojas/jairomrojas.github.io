@@ -1,15 +1,13 @@
 ---
 layout: about
-title: About
+title: Home
 permalink: /
 subtitle: Department of Physics, University of Illinois Urbana-Champaign
 
 profile:
   align: right
   image: figures/portrait.jpg
-  image_circular: true
-  more_info: >
-    <p><a href="mailto:jairomr2@illinois.edu">jairomr2@illinois.edu</a></p>
+  image_circular: false
 
 selected_papers: false
 social: true

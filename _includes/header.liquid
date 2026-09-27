@@ -1,4 +1,25 @@
 <style>
+  :root {
+    --paper: #fbfaf6;
+    --ink: #1f2930;
+    --muted: #5f666b;
+    --chrome: #1b3a4b;
+    --chrome-line: #6d94ab;
+    --accent: #7a1a1a;
+    --current: #b4232a;
+    --rule: rgba(27, 58, 75, 0.18);
+  }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+  }
+  h1,
+  h2,
+  h3,
+  .post-title,
+  .navbar-brand {
+    font-family: Georgia, "Times New Roman", serif;
+  }
   .post-title .font-weight-bold,
   .navbar-brand .font-weight-bold {
     font-weight: 400 !important;
@@ -8,73 +29,369 @@
     font-style: normal;
     font-weight: 400;
   }
-  html[data-theme="dark"] {
-    --global-theme-color: #d7c4a3;
-    --global-hover-color: #efe4d0;
-    --global-hover-text-color: #1c1c1c;
-  }
   h1.post-title {
     font-weight: 400;
     letter-spacing: 0.01em;
-  }
-  .navbar .nav-link {
-    font-weight: 400;
-    letter-spacing: 0.04em;
+    color: var(--chrome);
   }
   .post .desc {
     letter-spacing: 0.01em;
+    color: var(--muted);
+    font-family: Georgia, "Times New Roman", serif;
   }
   article p,
   .post p {
     line-height: 1.65;
   }
-  .publications h2 {
-    font-weight: 400;
-    letter-spacing: 0.08em;
+  article a,
+  .post a {
+    color: var(--accent);
+  }
+  #navbar {
+    background: var(--chrome) !important;
+    border-bottom: 4px solid var(--chrome-line);
+    box-shadow: none !important;
+  }
+  .navbar-brand,
+  .navbar-brand:hover,
+  .navbar-brand:focus {
+    color: #f7f4ee !important;
+    font-size: 1.55rem;
+    font-weight: 400 !important;
+  }
+  .navbar .nav-link {
+    color: #f7f4ee !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
     font-size: 0.95rem;
+    letter-spacing: 0.01em;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 0.35rem;
+  }
+  .navbar .nav-link:hover,
+  .navbar .nav-link:focus {
+    color: #ffffff !important;
+    border-bottom-color: var(--chrome-line);
+  }
+  .navbar .nav-item.active > .nav-link {
+    color: #ffffff !important;
+    border-bottom-color: var(--current);
+  }
+  .navbar .icon-bar {
+    background-color: #f7f4ee;
+  }
+  .navbar-collapse,
+  .navbar-collapse.show {
+    background: var(--chrome);
+  }
+  .publications h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    font-size: 1.15rem;
+    color: var(--chrome);
+  }
+  .container.mt-5 {
+    margin-top: 1rem !important;
+  }
+  h1.post-title {
+    margin-bottom: 0.15rem;
+    font-size: 1.75rem;
+  }
+  .post-header {
+    margin-bottom: 0.7rem;
+  }
+  p.desc,
+  .post-description {
+    margin: 0;
+  }
+  .profile {
+    width: 11rem !important;
+    max-width: 11rem;
+    margin: 0.15rem 0 0.35rem 1.1rem !important;
+    padding: 0;
+    background: #fff;
+    border: 1px solid var(--rule);
+    float: right;
   }
   .profile img,
+  .profile .img-fluid,
+  .profile figure,
+  .profile picture {
+    display: block;
+    width: 11rem !important;
+    max-width: 100%;
+    height: auto !important;
+    margin: 0;
+  }
+  .profile img,
+  .profile .img-fluid {
+    border-radius: 0 !important;
+    aspect-ratio: auto !important;
+    object-fit: contain !important;
+    object-position: center !important;
+    background: #fff;
+    box-shadow: none !important;
+  }
+  .post .clearfix p {
+    margin-bottom: 0.4rem;
+  }
+  .post .clearfix p:last-child {
+    margin-bottom: 0;
+  }
+  .social {
+    clear: both;
+    text-align: left !important;
+    margin-top: 0.55rem;
+  }
+  .social .contact-icons {
+    font-size: 1.05rem !important;
+    display: flex;
+    gap: 0.9rem;
+    align-items: center;
+  }
+  .social .contact-icons a svg,
+  .social .contact-icons a img,
+  .social .contact-icons a i {
+    width: 1.05rem !important;
+    height: 1.05rem !important;
+    margin: 0 !important;
+    font-size: 1.05rem !important;
+  }
   img.preview,
   .preview {
-    border-radius: 50% !important;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
+    border-radius: 0 !important;
+    aspect-ratio: 1 / 1 !important;
+    object-fit: contain !important;
     object-position: center;
-    background: #f7f4ee;
-    box-shadow: 0 0 0 2px #d7c4a3 !important;
+    width: 100%;
+    height: auto !important;
+    background: #fff;
+    border: 1px solid var(--rule);
+    box-shadow: none !important;
   }
   .research-group {
-    margin-top: 2.4rem;
+    margin-top: 1.05rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--rule);
   }
   .research-group:first-of-type {
-    margin-top: 0.4rem;
+    margin-top: 0.2rem;
+    border-top: none;
+    padding-top: 0;
   }
   .research-group h2 {
-    font-size: 0.78rem;
-    font-weight: 500;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-    color: var(--global-theme-color);
+    font-size: 1.45rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--chrome);
     margin-bottom: 0.35rem;
   }
-  .research-group .group-note {
-    margin-bottom: 0.9rem;
+  .research-group p {
+    margin-bottom: 0.55rem;
+  }
+  .research-lead {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .research-lead > div {
+    flex: 1;
+    min-width: 0;
+  }
+  .research-source {
+    margin-bottom: 0;
+    color: var(--muted);
+    font-size: 0.92rem;
+  }
+  .research-figure {
+    flex: 0 0 9.25rem;
+    width: 9.25rem;
+    margin: 0;
+  }
+  .research-figure img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    height: auto;
+    background: #fff;
+    border: 1px solid var(--rule);
+  }
+  .activity-section {
+    clear: both;
+    margin-top: 2rem;
+    padding-top: 1.2rem;
+    border-top: 1px solid var(--rule);
+  }
+  .activity-section h2,
+  .activity-list + .activity-more {
+    font-weight: 400;
+  }
+  .activity-list {
+    border-top: 1px solid var(--rule);
+    margin-top: 0.35rem;
+  }
+  .activity-item {
+    display: grid;
+    grid-template-columns: 4.2rem 6.4rem minmax(0, 1fr);
+    gap: 0.85rem;
+    align-items: center;
+    padding: 0.55rem 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .activity-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6.4rem;
+    height: 2.35rem;
+    margin: 0;
+    padding: 0.2rem 0.35rem;
+    background: #fff;
+    border: 1px solid var(--rule);
+  }
+  .activity-logo img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
+  .activity-date {
+    color: var(--chrome-line);
+    font: 700 0.78rem/1.35 Arial, Helvetica, sans-serif;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .activity-title {
+    margin: 0 0 0.2rem;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.15rem;
+    line-height: 1.35;
+  }
+  .activity-meta,
+  .activity-more {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.92rem;
+  }
+  .activity-more {
+    margin-top: 0.8rem;
+  }
+  .publications {
+    margin-top: 0.35rem;
+  }
+  .publications h2.bibliography {
+    text-align: left;
+    font-size: 1rem;
+    color: var(--chrome);
+    border-top: 1px solid var(--rule);
+    margin: 0.8rem 0 0.35rem;
+    padding-top: 0.35rem;
+  }
+  .publications h2.bibliography:first-of-type {
+    border-top: none;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .publications ol.bibliography {
+    margin-bottom: 0;
+  }
+  .publications ol.bibliography > li {
+    margin-bottom: 0.4rem;
+  }
+  .publications .row {
+    align-items: center;
+    gap: 0.85rem;
+    margin: 0;
+  }
+  .publications .row > .abbr {
+    flex: 0 0 6.25rem !important;
+    max-width: 6.25rem !important;
+    width: 6.25rem !important;
+    padding: 0 !important;
+  }
+  .publications .row > .col-sm-8 {
+    flex: 1 1 auto !important;
+    max-width: none !important;
+    width: auto !important;
+    padding: 0 !important;
+  }
+  .publications .title,
+  .publications .author,
+  .publications .periodical {
+    line-height: 1.35;
+  }
+  .publications .title a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .publications .title a:hover,
+  .publications .title a:focus {
+    color: var(--accent);
+  }
+  .publications img.preview,
+  .publications .preview {
+    width: 6.25rem !important;
+  }
+  .site-footer {
+    margin-top: 1.5rem;
+    padding: 0.8rem 1rem;
+    background: var(--chrome);
+    color: #f7f4ee;
+    text-align: center;
+    font-size: 0.82rem;
+  }
+  .site-footer p {
+    margin: 0;
+  }
+  @media (max-width: 576px) {
+    .profile,
+    .profile img,
+    .profile .img-fluid,
+    .profile figure,
+    .profile picture {
+      float: none !important;
+      width: 11rem !important;
+    }
+    .profile {
+      margin: 0 0 0.7rem !important;
+    }
+    .navbar .navbar-nav {
+      padding-bottom: 0.6rem;
+    }
+    img.preview,
+    .preview {
+      max-width: 220px;
+    }
+    .research-lead {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .activity-item {
+      grid-template-columns: 3.2rem 4.6rem minmax(0, 1fr);
+      gap: 0.55rem;
+    }
+    .activity-logo {
+      width: 4.6rem;
+      height: 1.9rem;
+      padding: 0.12rem 0.2rem;
+    }
   }
 </style>
 <header>
-  <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" aria-label="Main navigation">
     <div class="container">
-      {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-          {% if site.title == 'blank' %}
-            {{- site.first_name }} {{ site.middle_name }} {{ site.last_name -}}
-          {% else %}
-            {{- site.title -}}
-          {% endif %}
-        </a>
-      {% elsif site.enable_navbar_social %}
-        <div class="navbar-brand social">{% social_links %}</div>
-      {% endif %}
+      <a class="navbar-brand title font-weight-lighter" href="{{ '/' | relative_url }}">
+        {% if site.title == 'blank' %}
+          {{- site.first_name }} {{ site.middle_name }} {{ site.last_name -}}
+        {% else %}
+          {{- site.title -}}
+        {% endif %}
+      </a>
       <button
         class="navbar-toggler collapsed navbar-toggler-main"
         type="button"
@@ -90,13 +407,13 @@
       </button>
 
       <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav">
-        <ul class="navbar-nav navbar-menu-list flex-nowrap">
+        <ul class="navbar-nav navbar-menu-list flex-nowrap ml-auto ms-auto">
           {% for page in site.pages %}
             {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
           {% endfor %}
 
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | relative_url }}">
+            <a class="nav-link" href="{{ '/' | relative_url }}" {% if page.permalink == '/' %}aria-current="page"{% endif %}>
               {{- about_title }}
               {% if page.permalink == '/' %}
                 <span class="sr-only">(current)</span>
@@ -124,7 +441,7 @@
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    {{- p.title }}
+                    {{- p.nav_label | default: p.title }}
                   </a>
                   <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                     {% for child in p.children %}
@@ -151,8 +468,8 @@
                   {%- else -%}
                     {%- assign url = p.url -%}
                   {%- endif %}
-                  <a class="nav-link" href="{{ url | relative_url }}">
-                    {{- p.title }}
+                  <a class="nav-link" href="{{ url | relative_url }}" {% if page.url contains parent_link %}aria-current="page"{% endif %}>
+                    {{- p.nav_label | default: p.title }}
                   </a>
                 </li>
               {% endif %}

@@ -1,5 +1,6 @@
 _site
 .bundle
+.pixi
 .DS_store
 .idea
 .jekyll-cache
@@ -19,3 +20,6 @@ vendor
 # Python bytecode from bin/ helper scripts
 __pycache__/
 *.pyc
+# pixi environments
+.pixi/*
+!.pixi/config.toml

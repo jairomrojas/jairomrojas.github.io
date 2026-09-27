@@ -1,4 +1,4 @@
 ---
 layout: redirect
-destination: /
+destination: /events/
 ---

@@ -2,9 +2,9 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Papers.
+description: Published papers and the arXiv preprint.
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 <!-- _pages/publications.md -->
