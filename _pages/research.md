@@ -16,14 +16,13 @@ nav_order: 2
       I derive that energy from first principles, treating the cell as a composite of a liquid-like interior and a stiffer cortex, and connect it directly to experimental observations of shape change along the cell's height.
     </p>
     <p>
-      Our <a href="https://arxiv.org/abs/2501.17810">2025 preprint</a> develops a 3D continuum shell model that captures this basal coupling.
-      A companion manuscript (in preparation) derives the perimeter energy exponent exactly — giving vertex models their first rigorous mechanical foundation.
+      This work yields a 3D continuum shell model that captures basal mechanical coupling, and a companion calculation that derives the perimeter energy exponent exactly — giving tissue models their first rigorous mechanical foundation.
     </p>
   </div>
   <figure class="research-lesson">
     <img
-      src="{{ '/assets/img/figures/mechanics-apical-basal.png' | relative_url }}"
-      alt="A three-dimensional shell whose cross-section changes from apical to basal. From the 2025 preprint."
+      src="{{ '/assets/img/figures/rojas-apical-basal-square.png' | relative_url }}"
+      alt="Microscopy images of epithelial cells at apical, medial, and basal planes beside their outlines and a 3D continuum shell model."
       width="1200"
       height="1200"
     >
@@ -36,11 +35,11 @@ nav_order: 2
     <p>What draws individual cells together, how does a population search for food, and how does it avoid going extinct?</p>
     <p>
       On <strong>assembly</strong>: the thin liquid film covering bacteria creates capillary attractions that a crowd screens into short-range interactions — analogous to charge screening in electromagnetism.
-      A kinetic closure turns this into a continuum hydrodynamic theory of active capillary aggregation (in preparation).
+      A kinetic closure turns this into a continuum hydrodynamic theory of active capillary aggregation.
     </p>
     <p>
       On <strong>foraging</strong>: a colony has already averaged over thousands of noisy individual tracks.
-      I show that population-level spatial patterns carry two distinct timescales, letting us infer individual search strategies from coarser collective observations (in preparation).
+      I show that population-level spatial patterns carry two distinct timescales, letting us infer individual search strategies from coarser collective observations.
     </p>
     <p>
       On <strong>persistence</strong>: a population at comfortable density can still be ended by a single large fluctuation.
