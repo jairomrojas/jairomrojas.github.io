@@ -75,13 +75,7 @@
     {% else %}
       {% assign paper_url = '' %}
     {% endif %}
-    <div class="title">
-      {% if paper_url != '' %}
-        <a href="{{ paper_url }}">{{ entry.title }}</a>
-      {% else %}
-        {{ entry.title }}
-      {% endif %}
-    </div>
+    <div class="title">{{ entry.title }}</div>
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
@@ -118,10 +112,10 @@
           {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
         {% endif %}
         {%- if author_is_self -%}
-          <em>
+          <strong>
             {{- author.first }}
             {{ author_last_html -}}
-          </em>
+          </strong>
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
@@ -210,7 +204,21 @@
       <div class="periodical">{{ entry.note | strip }}</div>
     {% endif %}
     {% if paper_url != '' %}
-      <div class="publication-actions"><a href="{{ paper_url }}">{% if entry.key == 'rojas2025shell' %}Read preprint{% else %}Read paper{% endif %}</a></div>
+      {% assign is_preprint = false %}
+      {% if entry.eprint or entry.arxiv %}
+        {% assign is_preprint = true %}
+      {% elsif entry.journal == 'arXiv' %}
+        {% assign is_preprint = true %}
+      {% endif %}
+      <div class="publication-actions">
+        <a href="{{ paper_url }}" title="{% if is_preprint %}View on arXiv{% else %}View published paper{% endif %}" style="text-decoration:none; font-size:1.1rem; color:inherit;">
+          {% if is_preprint %}
+            <i class="ai ai-arxiv" style="font-size:1.25rem;"></i>
+          {% else %}
+            <i class="fa-regular fa-file-lines" style="font-size:1.1rem;"></i>
+          {% endif %}
+        </a>
+      </div>
     {% endif %}
 
     {% if site.enable_publication_badges %}
