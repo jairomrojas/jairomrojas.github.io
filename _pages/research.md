@@ -17,9 +17,9 @@ nav_order: 2
   <figure class="research-lesson">
     <img
       src="{{ '/assets/img/figures/mechanics-apical-basal.png' | relative_url }}"
-      alt="Apical, medial, and basal outlines of one cell, beside a three-dimensional shell whose cross-section changes along its height. From the 2025 preprint."
-      width="1035"
-      height="630"
+      alt="A three-dimensional shell whose cross-section changes from apical to basal. From the 2025 preprint."
+      width="1200"
+      height="1200"
     >
   </figure>
 </section>
@@ -37,8 +37,8 @@ nav_order: 2
     <img
       src="{{ '/assets/img/figures/collective-clusters.png' | relative_url }}"
       alt="Cells still apart, beside cells gathered into a compact group and a group with an opening."
-      width="1544"
-      height="1659"
+      width="1200"
+      height="1200"
     >
   </figure>
 </section>
@@ -54,8 +54,8 @@ nav_order: 2
     <img
       src="{{ '/assets/img/figures/information-foraging.png' | relative_url }}"
       alt="Foraging responses. A cell searches when food is scarce and exploits when food is rich, by changing its jitter, heading, speed, or tumbles."
-      width="2000"
-      height="1800"
+      width="1200"
+      height="1200"
     >
   </figure>
 </section>

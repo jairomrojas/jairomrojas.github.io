@@ -2,8 +2,8 @@ rojas2025shell:
   alt: "Three-dimensional shell model of an epithelial cell."
   crop: model
 chang2026computational:
-  alt: "Pendulum simulation from an interactive dynamics teaching notebook."
-  crop: pendulum
+  alt: "Phase plot of a pendulum, with closed orbits around a fixed point."
+  crop: phase
   source: ../figures/chang-computational.png
 budzik2021defects:
   alt: "Flow diagram connecting conformal defects in the space of two couplings."
