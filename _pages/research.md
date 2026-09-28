@@ -78,15 +78,16 @@ nav_order: 2
 </section>
 
 <section class="research-group" id="education">
-  <h2>Teaching and Learning with AI</h2>
+  <h2>Rethinking Science and Engineering Education with AI</h2>
   <div class="research-copy">
-    <p>AI can produce a convincing graph or plausible answer even when the underlying physics is wrong.
-    As AI becomes part of coursework, students need practice deciding what to ask, where a result could fail, and how to check it against a physical model.</p>
+    <p>Generative AI is changing what it means to teach and learn science and engineering.
+    It can make feedback more immediate, dialogue more accessible, and exploration more open-ended.
+    Yet an answer can arrive before understanding.
+    The challenge is to use AI to strengthen curiosity, judgment, and scientific reasoning without replacing the effort through which these abilities develop.</p>
     <p>
-      As a student developer in Illinois's <a href="https://ae3.grainger.illinois.edu/holding/strategic-instructional-initiatives-program-siip" style="font-weight:bold;text-decoration:none;color:inherit">Strategic Instructional Innovations Program (SIIP)</a>, I help develop <em>AI for Creative Computation</em> for upper-division dynamics and control courses.
-      We are designing assignments that pair generative AI with simulations and compare approaches from no AI to AI as a collaborator.
-      Students stay in charge: they test predictions, catch errors, revise their approach, and explain the physics in their own words.
-      The project also develops ways to assess those skills.
+      As part of UIUC’s <a href="https://ae3.grainger.illinois.edu/holding/strategic-instructional-initiatives-program-siip">Strategic Instructional Innovations Program (SIIP)</a>, I study how different forms of engagement—from working without AI to using it as a collaborator—shape the learning process.
+      I am interested in how AI can help students ask better questions, test ideas, receive timely feedback, and reflect on what they do and do not understand.
+      This means designing experiences that support independent practice and the application of knowledge to new problems while requiring students to question the model, verify its output, and defend their conclusions on their own.
     </p>
   </div>
   <figure class="research-lesson">
