@@ -42,6 +42,7 @@
 </title>
 <meta name="author" content="{{ author_name }}">
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<link rel="icon" type="image/png" sizes="512x512" href="{{ '/assets/img/logo-jmr.png' | relative_url }}">
 {% if page.keywords or site.keywords %}
   <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
 {% endif %}
@@ -85,6 +86,17 @@
 {% endif %}
 
 {% if site.serve_schema_org %}
+  {% if page.url == '/' %}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "{{ site.title }}",
+        "alternateName": "Jairo Rojas",
+        "url": "{{ site.url }}/"
+      }
+    </script>
+  {% endif %}
   <!-- Schema.org: this site belongs to a person, not an organization. -->
   <script type="application/ld+json">
     {
