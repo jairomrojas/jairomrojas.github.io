@@ -1,6 +1,6 @@
 # Jairo M Rojas
 
-Academic site: https://jairomrojas.github.io/
+Academic site: https://jairomrojas.com/
 
 Built with [al-folio](https://github.com/alshedivat/al-folio). A push to `main` publishes it.
 

@@ -1,6 +1,6 @@
 # AGENTS.md — Jairo M Rojas website
 
-Personal academic site at https://jairomrojas.github.io/. Theme: al-folio v1. Theme layouts stay in the `al_folio_core` gem.
+Personal academic site at https://jairomrojas.com/. Theme: al-folio v1. Theme layouts stay in the `al_folio_core` gem.
 
 ## Where things are
 - `_pages/about.md` — homepage. The nav label is Home
