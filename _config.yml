@@ -108,7 +108,7 @@ max_width: 1040px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph and Twitter meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+og_image: https://jairomrojas.com/assets/img/figures/portrait.jpg # Social preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
