@@ -2,21 +2,23 @@
 layout: page
 title: Research
 permalink: /research/
-description: Cell mechanics, collective dynamics, and evolving codes.
+description: From cell shape and collective motion to biological information and learning.
 nav: true
 nav_order: 2
 ---
 
 <section class="research-group" id="mechanics">
-  <h2>The physics of living form</h2>
+  <h2>Mechanics and Morphology of Living Tissues</h2>
   <div class="research-copy">
-    <p>How does an organism build its own body — how do flat sheets of cells fold into organs, tubes, and three-dimensional structures?</p>
+    <p>How does an organism build its body as it grows?
+    How do flat sheets of cells fold into organs, tubes, and other three-dimensional structures?
+      These transformations result from forces generated within cells, interactions among neighboring cells, connections to the surrounding substrate, biochemical signaling, and external constraints.
+      Working within the framework of continuum mechanics, I use energy-based descriptions to investigate how these factors determine the geometry of epithelial sheets.
+    </p>
     <p>
-      The forces come from the cells themselves: a liquid-like interior held by a stiffer cortex.
-      I derive that energy from continuum mechanics, so material properties set the geometry of a whole epithelial sheet, rather than parameters chosen by hand.
-      The same description accounts for why a cell looks different at its top than at its base.
-      A tissue model can then start from that energy, and ask how a sheet folds, heals, or fails.
-      The test is to set that prediction beside the measured outline, at the same position from the top of the cell to its base.
+      My research extends current theories of epithelial mechanics by accounting for the material properties and internal composition of individual cells.
+      I also study how cells are mechanically coupled to their neighbors and to their substrate, including through fiber bundles that transmit forces across these interfaces.
+      From this cell-scale description, I develop tissue-level models to explore how epithelial sheets fold, heal, and fail.
     </p>
   </div>
   <figure class="research-lesson">
@@ -30,16 +32,16 @@ nav_order: 2
 </section>
 
 <section class="research-group" id="collective">
-  <h2>When many become one</h2>
+  <h2>Active Matter Far from Equilibrium</h2>
   <div class="research-copy">
-    <p>Living cells rarely act alone.
-    Communities assemble, search, and persist in ways no one cell can manage by itself.</p>
+    <p>Active matter is composed of units that continuously consume energy and convert it into motion or mechanical stress.
+    Because energy is injected locally, these systems do not relax toward equilibrium.
+    Instead, they can sustain flows, generate forces, and organize themselves into dynamic structures.
+    Living systems—from molecular motors to swimming microorganisms—provide some of the clearest examples, making active matter a central topic in modern nonequilibrium physics.</p>
     <p>
-      How do cells <strong>assemble</strong> before they are crowded, and what force draws them in?
-      How does a population <strong>search</strong> its surroundings, and what do the spatial patterns reveal about the individual?
-      How does a community <strong>persist</strong> when one rare fluctuation in birth, death, or motion can end it?
-      Soft-matter theory, kinetic theory, and large-deviation methods connect those interactions to what a group actually shows.
-      The aim is to read an individual rule from that pattern, whether it is a cluster, a search path, or a sudden collapse.
+      My research uses this framework to understand how interactions at the cellular scale produce organization at much larger scales.
+      In some bacterial systems, for example, cells can influence one another before making contact: deformations of the surrounding thin liquid film produce interactions that cannot be explained by crowding alone.
+      I use continuum and kinetic theories to connect these microscopic mechanisms to the structures and dynamics observed across the system.
     </p>
   </div>
   <figure class="research-lesson">
@@ -53,16 +55,16 @@ nav_order: 2
 </section>
 
 <section class="research-group" id="information">
-  <h2>Robustness and the logic of the code</h2>
+  <h2>Collective Behavior: Information, Search, and Survival</h2>
   <div class="research-copy">
-    <p>A cell reads its genome through a translation code, a dictionary from nucleotides to amino acids.
-    The code is shared across life, and it stays readable when a step goes wrong.</p>
+    <p>Living cells rarely act alone.
+    They form communities that assemble, search, and persist in ways no single cell can achieve.
+    At the population level, interactions among cells and with their environment create new ways of gathering information, using resources, and adapting to change.
+    I study how evolution shapes these collective strategies through mathematical models based on optimization and information theory.
+    Quantitative experiments motivate my hypotheses and provide observations against which I test their predictions.</p>
     <p>
-      How does that robustness arise while the code itself can still change?
-      I study populations in which sequences and codes evolve together, and selection acts only on what is expressed.
-      Error-buffering codes are the ones that remain, with no fitness rule imposed from outside.
-      The aim is to see which physical and evolutionary pressures make that processing reliable, and whether the lesson reaches beyond this particular code.
-      The comparison is about the population, not the code alone.
+      My research asks what forces bring cells together and whether aggregation can protect a population from extinction caused by fluctuations in birth, death, or movement.
+      I also investigate how groups forage in different environments, balancing the use of known nutrient sources with the exploration needed to learn about their surroundings.
     </p>
   </div>
   <figure class="research-lesson">
@@ -76,16 +78,15 @@ nav_order: 2
 </section>
 
 <section class="research-group" id="education">
-  <h2>Teaching and thinking with AI</h2>
+  <h2>Teaching and Learning with AI</h2>
   <div class="research-copy">
-    <p>Generative AI changes what it means to learn computational science.
-    The question is how to use it so that understanding deepens.</p>
+    <p>AI can produce a convincing graph or plausible answer even when the underlying physics is wrong.
+    As AI becomes part of coursework, students need practice deciding what to ask, where a result could fail, and how to check it against a physical model.</p>
     <p>
-      As part of the <a href="https://ae3.grainger.illinois.edu/holding/strategic-instructional-initiatives-program-siip" style="font-weight:bold;text-decoration:none;color:inherit">Strategic Instructional Innovations Program (SIIP)</a> at UIUC, I am a student developer on <em>AI for Creative Computation</em>, in upper-division dynamics and control courses.
-      We compare modes of engagement, from no AI to AI as a collaborator, and ask what students actually learn in each.
-      A student has to direct the tool, catch an error, and check the result against a physical constraint.
-      The point is someone who can send the model back and still explain the solution without it.
-      What they keep has to be a result they can defend from the physics, on their own.
+      As a student developer in Illinois's <a href="https://ae3.grainger.illinois.edu/holding/strategic-instructional-initiatives-program-siip" style="font-weight:bold;text-decoration:none;color:inherit">Strategic Instructional Innovations Program (SIIP)</a>, I help develop <em>AI for Creative Computation</em> for upper-division dynamics and control courses.
+      We are designing assignments that pair generative AI with simulations and compare approaches from no AI to AI as a collaborator.
+      Students stay in charge: they test predictions, catch errors, revise their approach, and explain the physics in their own words.
+      The project also develops ways to assess those skills.
     </p>
   </div>
   <figure class="research-lesson">
