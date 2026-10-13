@@ -1,6 +1,7 @@
 # AGENTS.md — Jairo M Rojas website
 
 Personal academic site at https://jairomrojas.com/. Theme: al-folio v1. Theme layouts stay in the `al_folio_core` gem.
+`../AGENTS.md` honesty rules apply here (no unpublished numbers, verified publication facts); its LaTeX and PNG-only figure rules do not, since web images follow the theme's formats.
 
 ## Where things are
 - `_pages/about.md` — homepage. The nav label is Home
@@ -18,7 +19,9 @@ The full figure stays beside that square, under the same name without `-square`.
 
 ## Commands
 - Publish: `git push origin main`
-- Local preview: `pixi run serve` (Ruby 3.3 from the physics environment, ImageMagick from this repo)
+- Local preview: `bundle exec jekyll serve --host 127.0.0.1 --port 4000 --livereload`
+- Local build: `bundle exec jekyll build`
+- Host tools: Ruby, Bundler, Node, and ImageMagick come from the shared `physics` Pixi environment (`pixi global add --environment physics <pkg>`). Gems install into `vendor/bundle`.
 
 ## Do / Ask / Never
 - **Do:** keep each research interest to its own question. Keep figures in `assets/img/figures/`.

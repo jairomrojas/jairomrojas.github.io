@@ -4,10 +4,16 @@ Academic site: https://jairomrojas.com/
 
 Built with [al-folio](https://github.com/alshedivat/al-folio). A push to `main` publishes it.
 
-Local preview: `pixi run serve`, then open http://127.0.0.1:4000/.
-ImageMagick for the figure previews lives in this folder's Pixi environment.
-Ruby and Bundler come from the global `physics` environment.
-The gems install into `vendor/bundle`.
+Local preview:
+
+```bash
+bundle exec jekyll serve --host 127.0.0.1 --port 4000 --livereload
+```
+
+Then open http://127.0.0.1:4000/.
+
+Ruby, Bundler, Node, and ImageMagick come from the shared host `physics` Pixi environment.
+Gems install into `vendor/bundle` (`bundle install` once if that directory is missing).
 
 ## Edit these
 
