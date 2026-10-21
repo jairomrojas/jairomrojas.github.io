@@ -20,6 +20,7 @@ nav_order: 2
       I also study how cells are mechanically coupled to their neighbors and to their substrate, including through fiber bundles that transmit forces across these interfaces.
       From this cell-scale description, I develop tissue-level models to explore how epithelial sheets fold, heal, and fail.
     </p>
+    <p class="research-note">Related publication: <a href="https://arxiv.org/abs/2501.17810">Cell Deformation Signatures along the Apical-Basal Axis: A 3D Continuum Mechanics Shell Model</a> (arXiv preprint, 2025).</p>
   </div>
   <figure class="research-lesson">
     <img
@@ -89,6 +90,7 @@ nav_order: 2
       I am interested in how AI can help students ask better questions, test ideas, receive timely feedback, and reflect on what they do and do not understand.
       This means designing experiences that support independent practice and the application of knowledge to new problems while requiring students to question the model, verify its output, and defend their conclusions on their own.
     </p>
+    <p class="research-note">Related publication: <a href="https://peer.asee.org/computational-tools-for-dynamics-and-controls-developing-computational-literacy-for-engineering-students">Computational Tools for Dynamics and Controls: Developing Computational Literacy for Engineering Students</a> (ASEE Annual Conference, 2026).</p>
   </div>
   <figure class="research-lesson">
     <img
