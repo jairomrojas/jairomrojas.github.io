@@ -22,14 +22,9 @@ nav_order: 2
     </p>
     <p class="research-note">Related publication: <a href="https://arxiv.org/abs/2501.17810">Cell Deformation Signatures along the Apical-Basal Axis: A 3D Continuum Mechanics Shell Model</a> (arXiv preprint, 2025).</p>
   </div>
-  <figure class="research-lesson">
-    <img
-      src="{{ '/assets/img/figures/rojas-apical-basal-square.png' | relative_url }}"
-      alt="Microscopy images of epithelial cells at apical, medial, and basal planes beside their outlines and a 3D continuum shell model."
-      width="1200"
-      height="1200"
-    >
-  </figure>
+  <div class="research-lesson">
+    {% include figure.liquid path="assets/img/figures/rojas-apical-basal-square.png" alt="Microscopy images of epithelial cells at apical, medial, and basal planes beside their outlines and a 3D continuum shell model." width="1200" height="1200" sizes="(min-width: 992px) 340px, (min-width: 576px) 314px, 95vw" loading="eager" %}
+  </div>
 </section>
 
 <section class="research-group" id="collective">
@@ -45,14 +40,9 @@ nav_order: 2
       I use continuum and kinetic theories to connect these microscopic mechanisms to the structures and dynamics observed across the system.
     </p>
   </div>
-  <figure class="research-lesson">
-    <img
-      src="{{ '/assets/img/figures/collective-clusters.png' | relative_url }}"
-      alt="Cells still apart, beside cells gathered into a compact group and a group with an opening."
-      width="1200"
-      height="1200"
-    >
-  </figure>
+  <div class="research-lesson">
+    {% include figure.liquid path="assets/img/figures/collective-clusters.png" alt="Cells still apart, beside cells gathered into a compact group and a group with an opening." width="1200" height="1200" sizes="(min-width: 992px) 340px, (min-width: 576px) 314px, 95vw" loading="lazy" %}
+  </div>
 </section>
 
 <section class="research-group" id="information">
@@ -68,14 +58,9 @@ nav_order: 2
       I also investigate how groups forage in different environments, balancing the use of known nutrient sources with the exploration needed to learn about their surroundings.
     </p>
   </div>
-  <figure class="research-lesson">
-    <img
-      src="{{ '/assets/img/figures/information-foraging.png' | relative_url }}"
-      alt="Jitter and heading responses. The cell searches when food is scarce, exploits when food is rich, and turns toward or away from food."
-      width="1200"
-      height="1200"
-    >
-  </figure>
+  <div class="research-lesson">
+    {% include figure.liquid path="assets/img/figures/information-foraging.png" alt="Jitter and heading responses. The cell searches when food is scarce, exploits when food is rich, and turns toward or away from food." width="1200" height="1200" sizes="(min-width: 992px) 340px, (min-width: 576px) 314px, 95vw" loading="lazy" %}
+  </div>
 </section>
 
 <section class="research-group" id="education">
@@ -92,12 +77,7 @@ nav_order: 2
     </p>
     <p class="research-note">Related publication: <a href="https://peer.asee.org/computational-tools-for-dynamics-and-controls-developing-computational-literacy-for-engineering-students">Computational Tools for Dynamics and Controls: Developing Computational Literacy for Engineering Students</a> (ASEE Annual Conference, 2026).</p>
   </div>
-  <figure class="research-lesson">
-    <img
-      src="{{ '/assets/img/figures/education-ai-collaboration-loop.jpg' | relative_url }}"
-      alt="Iterative loop diagram: an initial problem feeds into a student team working with a computational tool and GenAI; the output is a new solution verified against physical constraints, with the student assessing and redirecting at each iteration."
-      width="1200"
-      height="800"
-    >
-  </figure>
+  <div class="research-lesson">
+    {% include figure.liquid path="assets/img/figures/education-ai-collaboration-loop.jpg" alt="Iterative loop diagram: an initial problem feeds into a student team working with a computational tool and GenAI; the output is a new solution verified against physical constraints, with the student assessing and redirecting at each iteration." width="1200" height="800" sizes="(min-width: 992px) 340px, (min-width: 576px) 314px, 95vw" loading="lazy" %}
+  </div>
 </section>
