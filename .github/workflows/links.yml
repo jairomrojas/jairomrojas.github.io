@@ -21,10 +21,13 @@ jobs:
         with:
           fail: true
           # 403 and 429 are what APS, ASEE and ScienceDirect send to robots; a browser gets the page.
+          # pucp.edu.pe sends an incomplete certificate chain that browsers repair and lychee rejects.
+          # _config.yml is not scanned: its addresses are theme templates ({{version}}) and comments, not visitor links.
           args: >-
             --no-progress
             --max-retries 3
             --timeout 30
             --scheme https --scheme http
             --accept "200..=299,403,429"
-            _pages/ _projects/ _data/ _bibliography/papers.bib _config.yml
+            --exclude "pucp\.edu\.pe"
+            _pages/ _projects/ _data/ _bibliography/papers.bib
