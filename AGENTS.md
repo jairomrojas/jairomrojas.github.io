@@ -11,6 +11,7 @@ Personal academic site at https://jairomrojas.com/. Theme: al-folio v1. Theme la
 - `_bibliography/papers.bib` — published papers and the arXiv preprint
 - `assets/img/figures/` — portrait and every publication figure
 - `assets/site.css` — all custom CSS, linked from `_includes/header.liquid`. It stays outside `assets/css/`, which PurgeCSS trims at deploy
+- `assets/fonts/` — the site fonts, Source Serif 4 for titles and headings and Source Sans 3 for text, self-hosted as variable WOFF2 files with Adobe's licenses. `assets/site.css` declares them and names them in `--font-serif` and `--font-sans`
 - `_data/socials.yml`, `_config.yml` — email, ORCID, Scholar, site name
 - `_redirects/` — old URLs, each forwarding to its matching new page. Keep them. The three that forwarded to Home (`/cv/`, `/seminars/`, `/teaching/`) were removed on 2026-10-26, because Google can read many old URLs sent to the home page as errors
 - `.github/workflows/deploy.yml` — GitHub Pages
