@@ -24,6 +24,12 @@ The full figure stays beside that square, under the same name without `-square`.
 - Local build: `bundle exec jekyll build`
 - Host tools: Ruby, Bundler, Node, and ImageMagick come from the shared `physics` Pixi environment (`pixi global add --environment physics <pkg>`). Gems install into `vendor/bundle`.
 
+## Quick checks
+
+```bash
+bundle exec jekyll build --quiet
+```
+
 ## Do / Ask / Never
 - **Do:** keep each research interest to its own question. Keep figures in `assets/img/figures/`.
 - **Ask:** before every push, since a push publishes the site.
