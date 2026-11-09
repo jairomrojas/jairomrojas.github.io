@@ -15,6 +15,7 @@ Personal academic site at https://jairomrojas.com/. Theme: al-folio v1. Theme la
 - `_data/socials.yml`, `_config.yml` — email, ORCID, Scholar, site name
 - `_redirects/` — old URLs, each forwarding to its matching new page. Keep them. The three that forwarded to Home (`/cv/`, `/seminars/`, `/teaching/`) were removed on 2026-10-26, because Google can read many old URLs sent to the home page as errors
 - `.github/workflows/deploy.yml` — GitHub Pages
+- `google77e1796456c8718a.html` — Google's verification file, which verifies the old `https://jairomrojas.github.io/` Search Console property (needed for the Change of Address to `jairomrojas.com`, started 2026-09-28) and probably the `https://jairomrojas.com/` one. Never delete it, since removing it unverifies the property
 
 Publication `preview` values are `../figures/<file>-square.png`.
 The full figure stays beside that square, under the same name without `-square`.
