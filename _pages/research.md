@@ -20,7 +20,7 @@ nav_order: 2
       I also study how cells are mechanically coupled to their neighbors and to their substrate, including through fiber bundles that transmit forces across these interfaces.
       From this cell-scale description, I develop tissue-level models to explore how epithelial sheets fold, heal, and fail.
     </p>
-    <p class="research-note">Related publication: <a href="https://arxiv.org/abs/2501.17810">Cell Deformation Signatures along the Apical-Basal Axis: A 3D Continuum Mechanics Shell Model</a> (arXiv preprint, 2025).</p>
+    <p class="research-note">Related publications: A Tissue Vertex Model grounded in Continuum Mechanics (arXiv preprint, 2026); <a href="https://arxiv.org/abs/2501.17810">Cell Deformation Signatures along the Apical-Basal Axis: A 3D Continuum Mechanics Shell Model</a> (arXiv preprint, 2025).</p>
   </div>
   <div class="research-lesson">
     {% include figure.liquid path="assets/img/figures/rojas-apical-basal-square.png" alt="Microscopy images of epithelial cells at apical, medial, and basal planes beside their outlines and a 3D continuum shell model." width="1200" height="1200" sizes="(min-width: 992px) 340px, (min-width: 576px) 314px, 95vw" loading="eager" %}
