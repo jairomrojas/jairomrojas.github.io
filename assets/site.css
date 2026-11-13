@@ -661,6 +661,33 @@ body > .container[role="main"] {
   color: var(--muted);
   font-size: 0.9rem;
 }
+/* Related publications: one paper per line, its icon as the link, as on Publications. */
+.post .research-note .research-note-label {
+  margin-bottom: 0.3rem;
+}
+.post .research-pubs {
+  margin: 0 0 0.85rem;
+  padding: 0;
+  list-style: none;
+}
+.post .research-pubs li {
+  display: flex;
+  align-items: baseline;
+  margin: 0 0 0.3rem;
+}
+.post .research-pubs .pub-icon {
+  flex: none;
+  width: 1.6rem;
+  color: #000;
+  text-decoration: none;
+  line-height: 1;
+}
+.post .research-pubs .ai-arxiv {
+  font-size: 1.25rem;
+}
+.post .research-pubs .fa-file-lines {
+  font-size: 1.05rem;
+}
 .post .research-lesson {
   width: 100%;
   min-width: 0;
