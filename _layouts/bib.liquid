@@ -196,20 +196,23 @@
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
     <div class="periodical">
+      {% assign is_preprint = false %}
+      {% if entry.eprint or entry.arxiv %}
+        {% assign is_preprint = true %}
+      {% elsif entry.journal == 'arXiv' %}
+        {% assign is_preprint = true %}
+      {% endif %}
       {% if paper_url != '' %}
-        {% assign is_preprint = false %}
-        {% if entry.eprint or entry.arxiv %}
-          {% assign is_preprint = true %}
-        {% elsif entry.journal == 'arXiv' %}
-          {% assign is_preprint = true %}
-        {% endif %}
         <a class="venue-link" href="{{ paper_url }}" title="{% if is_preprint %}View on arXiv{% else %}View published paper{% endif %}" aria-label="{% if is_preprint %}View on arXiv{% else %}View published paper{% endif %}">
           {% if is_preprint %}
             <i class="ai ai-arxiv" aria-hidden="true"></i>
           {% else %}
-            <i class="fa-regular fa-file-lines" aria-hidden="true"></i>
+            {% include icons/journal-text.svg %}
           {% endif %}
         </a>
+      {% elsif is_preprint %}
+        <!-- An arXiv preprint before its identifier: the logo shows, but links nowhere yet. -->
+        <span class="venue-link"><i class="ai ai-arxiv" aria-hidden="true"></i></span>
       {% endif %}
       {{ periodical | strip }}
     </div>

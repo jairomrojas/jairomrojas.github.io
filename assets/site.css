@@ -664,6 +664,7 @@ body > .container[role="main"] {
 /* Related publications: one paper per line, its icon as the link, as on Publications. */
 .post .research-note .research-note-label {
   margin-bottom: 0.3rem;
+  font-weight: 700;
 }
 .post .research-pubs {
   margin: 0 0 0.85rem;
@@ -685,8 +686,9 @@ body > .container[role="main"] {
 .post .research-pubs .ai-arxiv {
   font-size: 1.25rem;
 }
-.post .research-pubs .fa-file-lines {
-  font-size: 1.05rem;
+/* Published papers: Bootstrap Icons journal-text, inlined from _includes/icons/. */
+.post .research-pubs .bi-journal-text {
+  font-size: 1.1rem;
 }
 .post .research-lesson {
   width: 100%;
@@ -774,8 +776,8 @@ body > .container[role="main"] {
 .publications .venue-link .ai-arxiv {
   font-size: 1.25rem;
 }
-.publications .venue-link .fa-file-lines {
-  font-size: 1.05rem;
+.publications .venue-link .bi-journal-text {
+  font-size: 1.1rem;
 }
 /* Event names lead; organization logos remain secondary. */
 .post .activity-item {

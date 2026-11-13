@@ -84,7 +84,7 @@ nav_order: 2
     <div class="research-note">
       <p class="research-note-label">Related publication</p>
       <ul class="research-pubs">
-        <li><a class="pub-icon" href="https://peer.asee.org/computational-tools-for-dynamics-and-controls-developing-computational-literacy-for-engineering-students" title="View published paper" aria-label="View published paper"><i class="fa-regular fa-file-lines" aria-hidden="true"></i></a>Computational Tools for Dynamics and Controls: Developing Computational Literacy for Engineering Students</li>
+        <li><a class="pub-icon" href="https://peer.asee.org/computational-tools-for-dynamics-and-controls-developing-computational-literacy-for-engineering-students" title="View published paper" aria-label="View published paper">{% include icons/journal-text.svg %}</a>Computational Tools for Dynamics and Controls: Developing Computational Literacy for Engineering Students</li>
       </ul>
     </div>
   </div>
