@@ -8,7 +8,7 @@ Personal academic site at https://jairomrojas.com/. Theme: al-folio v1. Theme la
 - `_pages/research.md` — four short sections: mechanics, collective, information, education. The longer note for each question stays in `_projects/`
 - `_pages/events.md` — Recent Events, the selected conferences and schools, including schools without a talk. Each name links to that event’s site
 - `_projects/*.md` — one research interest each. `category` must be mechanics, collective, or information
-- `_bibliography/papers.bib` — published papers and the arXiv preprint
+- `_bibliography/papers.bib` — published papers and the arXiv preprints
 - `assets/img/figures/` — portrait and every publication figure
 - `assets/site.css` — all custom CSS, linked from `_includes/header.liquid`. It stays outside `assets/css/`, which PurgeCSS trims at deploy
 - `assets/fonts/` — the site fonts, Source Serif 4 for titles and headings and Source Sans 3 for text, self-hosted as variable WOFF2 files with Adobe's licenses. `assets/site.css` declares them and names them in `--font-serif` and `--font-sans`
